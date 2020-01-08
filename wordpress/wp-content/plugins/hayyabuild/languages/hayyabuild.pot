@@ -1,0 +1,1824 @@
+# Copyright (C) 2019 ZintaThemes
+# This file is distributed under the same license as the HayyaBuild plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: HayyaBuild 5.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hayyabuild\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-12-11T17:26:36+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: hayyabuild\n"
+
+#. Plugin Name of the plugin
+#: admin/class-hayyabuild-help.php:43
+msgid "HayyaBuild"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://hayyabuild.zintathemes.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "HayyaBuild allows you to build unlimited headers, pages and footers for your WordPress website without the needs for writing any code."
+msgstr ""
+
+#. Author of the plugin
+msgid "ZintaThemes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "www.zintathemes.com"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:43
+msgid "Version"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:48
+msgid "Contact Us"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:55
+msgid "First of all, thank you for using HayyaBuild."
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:58
+msgid "If we can be of assistance, please do not hesitate to contact us at"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:59
+msgid "Support."
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:61
+msgid "If you like it, Please don`t forget to write a good review."
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:70
+msgid "Click here to write your reivew."
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:76
+msgid "Need help? You want to report a bug?"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:78
+msgid "You can find us on:"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:88
+msgid "Plugin Website"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:89
+msgid "Our Website"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:94
+msgid "Help"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:98
+msgid "Setup Your Template"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:101
+msgid "To use HayyaBuild to only building pages layouts and shortcodes, you don`t have to follow these steps. But it prefers to do so to take advantage of all HayyaBuild features."
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:103
+msgid "To use HayyaBuild to build headers and footers and your theme doesn`t support HayyaBuild by default just follow these steps."
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:105
+msgid "Make a backup from header.php and footer.php files."
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:107
+msgid "Now open \"Edit Themes\" page which is located in the WordPress Dashboard > Appearance > Editor"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:110
+msgid "From template files list \"on the right\" choose \"Theme Header\" (header.php)"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:113
+msgid "Now search for the header tag and replace it with hayybuild function."
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:115
+msgid "<header> .... </header> OR <div id=\"header\"> .... </div> or anything else"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:117
+msgid "with this code"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:119
+#: admin/class-hayyabuild-help.php:133
+msgid "<?php hayyabuild();?>"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:121
+msgid "and click on Update"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:124
+msgid "From Editor and template files list \"on the right\" choose Theme Footer (footer.php)"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:127
+msgid "Now search for the footer tag and replace it with hayybuild function"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:129
+msgid "<footer> .... </footer> OR <div id=\"footer\"> .... </div> or anything else"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:131
+msgid "With this code"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:138
+msgid "You can edit header.php and footer.php with any text editor from your desktop and then upload it to your WordPress theme directory."
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:141
+msgid "You can try Hayya Theme from WordPress"
+msgstr ""
+
+#: admin/class-hayyabuild-import.php:64
+#: admin/class-hayyabuild-view.php:101
+msgid "Import"
+msgstr ""
+
+#: admin/class-hayyabuild-import.php:67
+msgid "File"
+msgstr ""
+
+#: admin/class-hayyabuild-import.php:76
+msgid "Include pages list: "
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:70
+#: admin/class-hayyabuild-list.php:72
+msgid "Published"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:77
+#: admin/class-hayyabuild-list.php:79
+msgid "Draft"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:84
+#: admin/class-hayyabuild-list.php:86
+#: admin/class-hayyabuild-list.php:216
+msgid "Trash"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:97
+#: admin/class-hayyabuild-view.php:169
+msgid "All"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:98
+#: admin/class-hayyabuild-view.php:170
+msgid "Headers"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:99
+msgid "Pages Content"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:100
+#: admin/class-hayyabuild-view.php:171
+msgid "Footers"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:200
+msgid "Pages List: "
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:201
+#: admin/class-hayyabuild-view.php:201
+#: admin/class-hayyabuild-view.php:264
+msgid "Type: "
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:204
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:210
+#: admin/class-hayyabuild-list.php:211
+msgid "Edit"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:221
+msgid "Publish"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:225
+msgid "Restore"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:228
+msgid "Delete"
+msgstr ""
+
+#: admin/class-hayyabuild-list.php:233
+msgid "Export"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:68
+#: admin/class-hayyabuild-metabox.php:71
+msgid "Title"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:79
+msgid "Background type"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:96
+msgid "Background image"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:100
+msgid "Image URL"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:102
+#: admin/class-hayyabuild-metabox.php:177
+msgid "Select"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:110
+#: admin/assets/js/hayyabuild.bundle.js:10817
+msgid "Background repeat"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:127
+#: admin/assets/js/hayyabuild.bundle.js:10803
+msgid "Background size"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:144
+msgid "Background Effects"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:148
+#: admin/class-hayyabuild-metabox.php:200
+msgid "Disable"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:171
+msgid "Background Video"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:175
+msgid "Video URL"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:187
+#: admin/assets/js/hayyabuild.bundle.js:10776
+msgid "Background color"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:196
+msgid "Scroll Effects"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:227
+#: admin/assets/js/hayyabuild.bundle.js:10428
+msgid "Text color"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:237
+msgid "Height"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:261
+#: admin/assets/js/hayyabuild.bundle.js:10385
+#: admin/assets/js/hayyabuild.bundle.js:15777
+msgid "Border Color"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:283
+#: admin/assets/js/hayyabuild.bundle.js:10255
+msgid "Margin"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:289
+#: admin/assets/js/hayyabuild.bundle.js:10291
+msgid "Border"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:295
+#: admin/assets/js/hayyabuild.bundle.js:10329
+msgid "Padding"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:316
+#: admin/class-hayyabuild-metabox.php:329
+#: admin/class-hayyabuild-view.php:295
+msgid "Pages List"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:341
+#: admin/class-hayyabuild-view.php:299
+msgid "Other Pages"
+msgstr ""
+
+#: admin/class-hayyabuild-metabox.php:374
+msgid "Just write CSS code, \"without syle tag\"."
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:46
+#: admin/assets/js/hayyabuild.bundle.js:5988
+#: admin/assets/js/hayyabuild.bundle.js:6181
+#: admin/assets/js/hayyabuild.bundle.js:6669
+#: admin/assets/js/hayyabuild.bundle.js:6920
+#: admin/assets/js/hayyabuild.bundle.js:7155
+#: admin/assets/js/hayyabuild.bundle.js:7364
+#: admin/assets/js/hayyabuild.bundle.js:7781
+#: admin/assets/js/hayyabuild.bundle.js:8177
+#: admin/assets/js/hayyabuild.bundle.js:8388
+#: admin/assets/js/hayyabuild.bundle.js:8588
+#: admin/assets/js/hayyabuild.bundle.js:8710
+#: admin/assets/js/hayyabuild.bundle.js:8914
+#: admin/assets/js/hayyabuild.bundle.js:9096
+#: admin/assets/js/hayyabuild.bundle.js:9310
+#: admin/assets/js/hayyabuild.bundle.js:13355
+#: admin/assets/js/hayyabuild.bundle.js:13531
+#: admin/assets/js/hayyabuild.bundle.js:13980
+#: admin/assets/js/hayyabuild.bundle.js:14199
+#: admin/assets/js/hayyabuild.bundle.js:14497
+#: admin/assets/js/hayyabuild.bundle.js:14734
+#: admin/assets/js/hayyabuild.bundle.js:15082
+#: admin/assets/js/hayyabuild.bundle.js:15392
+#: admin/assets/js/hayyabuild.bundle.js:15757
+#: admin/assets/js/hayyabuild.bundle.js:16005
+#: admin/assets/js/hayyabuild.bundle.js:16171
+#: admin/assets/js/hayyabuild.bundle.js:16419
+#: admin/assets/js/hayyabuild.bundle.js:16856
+msgid "HayyaBuild Options"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:57
+msgid "Main"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:62
+msgid "Google API key"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:65
+msgid "API Key"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:72
+msgid "Save Settings"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:73
+msgid "Cancel Changes"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:51
+msgid "This list is empty!"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:55
+msgid "New Header"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:56
+msgid "New Content"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:57
+msgid "New Footer"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:73
+msgid "HayyaBuild Version 5.0 and later require WordPress 5.0 or later!"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:74
+msgid "To use HayyaBuild please upgrade WordPress!"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:134
+msgid "This feature is available only in HayyaBuild Pro. You can unlock all features by getting HayyaBuild Pro version."
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:138
+msgid "GET IT NOW"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:160
+msgid "Templates List"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:214
+msgid "Create"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:248
+msgid "New from template"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:283
+msgid "Pages"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:311
+msgid "Add"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:360
+msgid "Sorry about that. But this feature is unavailable in lite version."
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:362
+msgid "Get more features"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:364
+msgid "from here."
+msgstr ""
+
+#: includes/class-hayyabuild-loader.php:135
+msgctxt "WordPress Layout Builder"
+msgid "HayyaBuild"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:5961
+#: admin/assets/js/hayyabuild.bundle.js:6616
+#: admin/assets/js/hayyabuild.bundle.js:7083
+#: admin/assets/js/hayyabuild.bundle.js:8699
+#: admin/assets/js/hayyabuild.bundle.js:9067
+#: admin/assets/js/hayyabuild.bundle.js:9273
+#: admin/assets/js/hayyabuild.bundle.js:12397
+#: admin/assets/js/hayyabuild.bundle.js:14698
+#: admin/assets/js/hayyabuild.bundle.js:16152
+msgid "Icon"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:5962
+#: admin/assets/js/hayyabuild.bundle.js:6617
+#: admin/assets/js/hayyabuild.bundle.js:6901
+#: admin/assets/js/hayyabuild.bundle.js:6911
+#: admin/assets/js/hayyabuild.bundle.js:7084
+#: admin/assets/js/hayyabuild.bundle.js:7638
+#: admin/assets/js/hayyabuild.bundle.js:8700
+#: admin/assets/js/hayyabuild.bundle.js:9068
+#: admin/assets/js/hayyabuild.bundle.js:9274
+#: admin/assets/js/hayyabuild.bundle.js:12398
+#: admin/assets/js/hayyabuild.bundle.js:13522
+#: admin/assets/js/hayyabuild.bundle.js:14699
+#: admin/assets/js/hayyabuild.bundle.js:16153
+msgid "Insert icon class"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:5963
+#: admin/assets/js/hayyabuild.bundle.js:6618
+#: admin/assets/js/hayyabuild.bundle.js:6902
+#: admin/assets/js/hayyabuild.bundle.js:6912
+#: admin/assets/js/hayyabuild.bundle.js:7085
+#: admin/assets/js/hayyabuild.bundle.js:7639
+#: admin/assets/js/hayyabuild.bundle.js:8701
+#: admin/assets/js/hayyabuild.bundle.js:9069
+#: admin/assets/js/hayyabuild.bundle.js:9275
+#: admin/assets/js/hayyabuild.bundle.js:12399
+#: admin/assets/js/hayyabuild.bundle.js:13523
+#: admin/assets/js/hayyabuild.bundle.js:14700
+#: admin/assets/js/hayyabuild.bundle.js:16154
+msgid "Search for icon"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:5972
+msgid "Always expanded"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:5980
+msgid "Expand when load"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6019
+msgid "Insert Accordion Title"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6157
+#: admin/assets/js/hayyabuild.bundle.js:15074
+msgid "Vertical"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6165
+msgid "Expandable"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6173
+#: admin/assets/js/hayyabuild.bundle.js:16382
+msgid "Hide Plus Icon"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6246
+msgid "Accordion"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6248
+msgid "The hayyabuild ccordion is a block that organizes content within collapsable items."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6276
+msgid "Accordion Title 1"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6282
+msgid "Accordion Title 2"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6288
+msgid "Accordion Title 3"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6379
+msgid "Accordion Panel"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6525
+msgid "Alert Box"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6527
+#: admin/assets/js/hayyabuild.bundle.js:6568
+msgid "Alerts. Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6598
+#: admin/assets/js/hayyabuild.bundle.js:7055
+#: admin/assets/js/hayyabuild.bundle.js:7798
+#: admin/assets/js/hayyabuild.bundle.js:9065
+#: admin/assets/js/hayyabuild.bundle.js:9271
+msgid "Button Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6600
+msgid "Dismissible"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6608
+msgid "Remember dismissible state"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6629
+msgid "Alert style"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6633
+msgid "primary"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6637
+msgid "Info"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6641
+msgid "Success"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6645
+msgid "Warning"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6649
+msgid "Danger"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6659
+msgid "Rounded Corners"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6692
+msgid "Add text here!"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6839
+msgid "Breadcrumb Menu"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6840
+msgid "A breadcrumb or breadcrumb trail is a graphical control element frequently used as a navigational aid in user interfaces and on web pages. It allows users to keep track and maintain awareness of their locations within websites."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6846
+msgid "Home"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6890
+#: admin/assets/js/hayyabuild.bundle.js:14454
+msgid "Breadcrumb Menu Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6892
+msgid "Home Title"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6900
+msgid "Home Icon"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6910
+msgid "Separator Icon"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7012
+#: admin/assets/js/hayyabuild.bundle.js:8139
+#: admin/assets/js/hayyabuild.bundle.js:13229
+#: admin/assets/js/hayyabuild.bundle.js:15937
+msgid "Button"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7013
+msgid "The button block defines a clickable button. Inside a button block you can put content, like text or icon."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7057
+#: admin/assets/js/hayyabuild.bundle.js:7800
+msgid "Button title"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7065
+#: admin/assets/js/hayyabuild.bundle.js:7808
+msgid "Button Link"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7073
+msgid "Button size"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7094
+msgid "Open in new tab"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7102
+msgid "Wave effect"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7110
+msgid "Shadow effect"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7118
+#: admin/assets/js/hayyabuild.bundle.js:7711
+msgid "Effect color"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7121
+#: admin/assets/js/hayyabuild.bundle.js:7714
+#: admin/assets/js/hayyabuild.bundle.js:14463
+msgid "Light"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7125
+#: admin/assets/js/hayyabuild.bundle.js:7718
+msgid "Red"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7129
+#: admin/assets/js/hayyabuild.bundle.js:7722
+msgid "Yellow"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7133
+#: admin/assets/js/hayyabuild.bundle.js:7726
+msgid "Orange"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7137
+#: admin/assets/js/hayyabuild.bundle.js:7730
+msgid "Purple"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7141
+#: admin/assets/js/hayyabuild.bundle.js:7734
+msgid "Green"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7145
+#: admin/assets/js/hayyabuild.bundle.js:7738
+msgid "Teal"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7354
+msgid "Space between buttons"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7439
+msgid "Buttons Group"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7440
+msgid "The buttons block is row of clickable buttons."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7463
+msgid "Button 1"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7473
+msgid "Button 2"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7482
+msgid "Button 3"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7635
+msgid "Card Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7637
+msgid "Card Icon"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7648
+#: admin/assets/js/hayyabuild.bundle.js:15241
+msgid "Icons size"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7658
+msgid "Hover Effect"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7661
+#: admin/assets/js/hayyabuild.bundle.js:15709
+msgid "Empty"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7665
+msgid "Slide Right"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7669
+#: admin/assets/js/hayyabuild.bundle.js:8366
+#: admin/assets/js/hayyabuild.bundle.js:9569
+msgid "Slide up"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7673
+msgid "Slide Down"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7677
+msgid "Slide Left"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7681
+msgid "Scale In"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7685
+msgid "Rotate"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7695
+msgid "Shadow Effect"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7703
+msgid "Wave Effect"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7761
+msgid "Remove"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7764
+msgid "Card Image"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7765
+msgid "Keep it empty to display icon instead."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7773
+msgid "Image title"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7835
+msgid "Add card title"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7848
+msgid "Add card text"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7977
+msgid "Info Card"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7978
+#: admin/assets/js/hayyabuild.bundle.js:7987
+msgid "Information cards are personal digital identities that people can use online, and the key component of an identity metasystem."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7986
+msgid "Card Title"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7988
+msgid "Card Button"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8113
+msgid "Content Box"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8115
+#: admin/assets/js/hayyabuild.bundle.js:8133
+msgid "The Content Box block is the generic container for flow content. It has no effect on the content or layout until customize it with all options provided by HayyaBuild."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8159
+#: admin/assets/js/hayyabuild.bundle.js:13715
+msgid "Content box Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8161
+msgid "Container Box"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8169
+#: admin/assets/js/hayyabuild.bundle.js:8580
+msgid "Content Alignment"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8344
+msgid "Flip"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8355
+msgid "Sliding type"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8358
+msgid "Flipping"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8362
+msgid "Flipping up"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8370
+#: admin/assets/js/hayyabuild.bundle.js:9566
+msgid "Slide right"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8374
+#: admin/assets/js/hayyabuild.bundle.js:9570
+msgid "Slide down"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8378
+#: admin/assets/js/hayyabuild.bundle.js:9565
+msgid "Slide left"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8457
+msgid "Double Sided Box"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8459
+msgid "It`s a box with tow faces the first one is visible and the second one is hidden, but when hover/tap over it the second one will be visible and the first one will be hidden."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8563
+msgid "Sides"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8670
+msgid "Features Item"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8697
+msgid "Features Item Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8809
+msgid "Features List"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8810
+msgid "Features List block are an advanced list to clarify the features of your products/services."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8840
+msgid "Features Line 1."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8852
+msgid "Features Line 2."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8864
+msgid "Features Line 3."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8875
+msgid "You can add any block"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8904
+msgid "Features List Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8906
+msgid "Show Icons Line"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8995
+msgid "Go Down Link"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8997
+msgid "Add go down link to header."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9078
+#: admin/assets/js/hayyabuild.bundle.js:9284
+msgid "Size"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9088
+#: admin/assets/js/hayyabuild.bundle.js:9294
+msgid "Animate"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9195
+msgid "Go Up Link"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9197
+msgid "Add go up link to footer."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9302
+msgid "Add Container"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9538
+msgid "Visibility Options"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9539
+msgid "Scrollin Options"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9540
+msgid "Hovering Options"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9541
+msgid "Other Options"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9547
+msgid "Visible on small screen < 600px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9548
+msgid "Hidden on small screen < 600px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9551
+msgid "Visible on medium screen < 782px > 600px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9552
+msgid "Hidden on medium screen < 782px > 600px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9555
+msgid "Visible on large screen > 1200px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9556
+msgid "Hidden on large screen > 1200px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9561
+#: admin/assets/js/hayyabuild.bundle.js:9599
+msgid "Scale in"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9562
+#: admin/assets/js/hayyabuild.bundle.js:9600
+msgid "Scale out"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9573
+msgid "Fade in"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9574
+msgid "Fade out"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9577
+msgid "Left rotation"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9578
+msgid "Right rotation"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9581
+msgid "Up rotation"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9582
+msgid "Down rotation"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9585
+msgid "Fixed background"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9586
+msgid "Parallax background \"Up\""
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9587
+msgid "Parallax background \"DWON\""
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9592
+msgid "Background Zoom-in"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9593
+msgid "Background Zoom-out"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9596
+msgid "Draw Shadow"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9603
+msgid "Increase visibility"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9604
+msgid "Reduction visibility"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9609
+msgid "Align left"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9610
+msgid "Align right"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9611
+msgid "Align center"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9612
+msgid "Align justify"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9615
+msgid "Center on small screen < 600px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9616
+msgid "Center on medium screen  < 782px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9617
+msgid "Center on large screen  < 1200px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9740
+msgid "Scroll duration"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9756
+msgid "Select Easing"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10247
+msgid "Layout options"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10365
+msgid "Border options"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10368
+msgid "Border radius"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10381
+msgid "Border color"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10398
+msgid "Border style"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10400
+#: admin/assets/js/hayyabuild.bundle.js:15713
+msgid "Solid"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10402
+msgid "Dashed"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10404
+#: admin/assets/js/hayyabuild.bundle.js:14724
+msgid "Dotted"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10406
+msgid "Double"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10408
+msgid "Groove"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10410
+msgid "Ridge"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10412
+msgid "Font options"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10415
+msgid "Font size"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10431
+#: admin/assets/js/hayyabuild.bundle.js:14754
+#: admin/assets/js/hayyabuild.bundle.js:16879
+msgid "Text Color"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10439
+#: admin/assets/js/hayyabuild.bundle.js:10442
+msgid "Opacity"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10454
+msgid "Background options"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10598
+msgid "Options"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10610
+msgid "Block Style"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10720
+msgid "Choose Image"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10780
+msgid "Background Color"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10791
+msgid "Select Image"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10805
+msgid "Length"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10807
+msgid "Cover"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10809
+msgid "Contain"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10811
+msgid "Initial"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10819
+msgid "Repeat"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10821
+msgid "Repeat X"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10823
+msgid "Repeat Y"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10825
+msgid "No repeat"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:10830
+msgid "Background Image"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:12340
+msgid "Save Map"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:12353
+msgid "Full Screen"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:12361
+msgid "Add Marker"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:12390
+msgid "You have to save map status to save a changes."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:12391
+msgid "Open popup when loaded"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:12406
+msgid "Marker Text"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:12407
+msgid "Popup marker text"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:12415
+#: admin/assets/js/hayyabuild.bundle.js:12417
+msgid "Marker Color"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:12422
+msgid "Marker Size"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:12430
+msgid "Remove This Marker"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13148
+msgid "Magic Box"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13150
+msgid "With magic box block you can show or hide inner content based on different conditions. For example some times you need to show some information for only logged-in users or you need to put some content in footer only for the front page."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13223
+msgid "You can use this box to display content under a specific conditions."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13261
+msgid "Show in all pages"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13276
+msgid "Logged in users"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13279
+msgid "Never mind!"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13283
+msgid "Show"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13287
+msgid "Hide"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13299
+msgid "Show in front page"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13308
+msgid "show in blog home page"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13317
+msgid "show in post page"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13326
+msgid "Show in author page"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13335
+msgid "Show in pages"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13336
+#: admin/assets/js/hayyabuild.bundle.js:13346
+msgid "pages ID’s separated by comma \",\" ."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13345
+msgid "Hide from pages"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13425
+msgid "Menu"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13427
+msgid "You can use this menu block in headers as the main menu with many options."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13479
+#: admin/assets/js/hayyabuild.bundle.js:13504
+#: admin/assets/js/hayyabuild.bundle.js:15040
+#: admin/assets/js/hayyabuild.bundle.js:15065
+msgid "Select Menu"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13502
+#: admin/assets/js/hayyabuild.bundle.js:15063
+msgid "Menu Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13513
+#: admin/assets/js/hayyabuild.bundle.js:15749
+msgid "Container"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13521
+msgid "Menu Icon"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13663
+msgid "Map"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13665
+msgid "With Map block you can include a map on your site that includes unlimited markers dropped at the address of locations. "
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13717
+msgid "Show Content"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13725
+msgid "Map Tiler"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13728
+#: admin/assets/js/hayyabuild.bundle.js:16846
+msgid "Style 1"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13732
+msgid "Style 2"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13736
+msgid "Style 3"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13740
+msgid "Style 4"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13744
+msgid "Style 5"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13748
+msgid "Style 6"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13752
+msgid "Custom Style"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13762
+msgid "Custom Map Tiler"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13770
+msgid "Attribution"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13778
+msgid "Map Height"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13798
+msgid "Save"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13879
+msgid "Page content"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13881
+msgid "When build any page with HayyaBuild you can add original content of the page to a any place you want."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13911
+msgid "Page Content"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13948
+msgid "Column"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13950
+msgid "A single column."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13978
+msgid "Column Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14161
+msgid "layouts configuration"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14166
+msgid "Screen size"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14169
+msgid "Disable responsive"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14173
+msgid "Small screen < 600px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14177
+msgid "Medium screen < 782px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14181
+msgid "Large screen < 1200px"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14190
+msgid "create responsive grid system for small, medium or large screen sizes."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14191
+msgid "Center columns vertically"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14276
+msgid "Row"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14277
+msgid " CSS Grid Layout aka \"Grid\", It is a 2-dimensional grid system, meaning it can handle both columns and rows."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14323
+msgid "Column 1"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14341
+msgid "Column 2"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14404
+msgid "Search Box"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14405
+msgid " It`s a search input which enables the visitors to find words, sentences, and numbers in a pages and posts."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14456
+#: admin/assets/js/hayyabuild.bundle.js:14459
+msgid "Select Theme"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14467
+msgid "Dark"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14471
+msgid "Transparent"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14481
+msgid "Expand on Hover"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14489
+msgid "Right Align"
+msgstr ""
+
+#. translators: %s: heading level e.g: "1", "2", "3"
+#: admin/assets/js/hayyabuild.bundle.js:14617
+msgid "Heading %d"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14694
+msgid "Separator Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14695
+msgid "Text Level"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14709
+msgid "Duble Lines"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14713
+msgid "Apply Mask"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14717
+msgid "Separator Style"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14720
+msgid "Default"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14728
+msgid "dashed"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14745
+#: admin/assets/js/hayyabuild.bundle.js:15768
+#: admin/assets/js/hayyabuild.bundle.js:16870
+msgid "Color Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14762
+msgid "Separator Color"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14878
+msgid "Separator"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14879
+msgid " You can use this block to separate the content visually."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14888
+msgid "Separator Block"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14990
+msgid "Simple Menu"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14991
+msgid " With Simple Menu block you can add menus to any place."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15179
+msgid "Social Media Menu"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15180
+msgid "Easily create beautiful social media menu."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15239
+msgid "Social Menu Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15251
+msgid "Shadow"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15259
+msgid "Edit Social Menu"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15267
+msgid "SocialMedia links"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15274
+msgid "Facebook"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15285
+msgid "Twitter"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15296
+msgid "Instagram"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15307
+msgid "Youtube"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15318
+msgid "Github"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15329
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15340
+msgid "Pinterest"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15362
+msgid "Flickr"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15373
+msgid "Tumblr"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15384
+msgid "vk"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15645
+msgid "Spacer"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15646
+msgid "Add white space between blocks and customize height, border and shadow effect."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15648
+msgid "Spacer block."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15696
+msgid "Spacer Height"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15706
+msgid "Spacer Style"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15717
+msgid "Shadow Center"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15721
+msgid "Shadow Edges"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15725
+msgid "Shadow Right"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15729
+msgid "Shadow Left"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15739
+msgid "Border size"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15875
+msgid "Stickybox Box"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15877
+#: admin/assets/js/hayyabuild.bundle.js:15931
+msgid "This content box will stick to the screen when you reach scroll position."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15971
+msgid "Sticky box Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15973
+msgid "Add Container Box"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15981
+msgid "Show Only Sticky"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15989
+msgid "Show it After Header Ends"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15997
+msgid "Show it when Scroll up"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16163
+msgid "Active"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16198
+msgid "Insert Tab Title"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16374
+msgid "Tabs Alignment"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16390
+msgid "Effect"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16393
+#: admin/assets/js/hayyabuild.bundle.js:16842
+msgid "None"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16397
+msgid "Fade"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16401
+msgid "Slide Up"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16405
+msgid "Swipe Up"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16409
+msgid "Swipe Left"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16526
+msgid "Tabs"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16527
+msgid "Tabs are components which separate content placed in the same wrapper but in the separate pane."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16536
+msgid "Tab Title 1"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16542
+msgid "Tab Title 2"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16548
+msgid "Tab Title 3"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16673
+msgid "Tab"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16837
+msgid "Testimonial Settings"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16839
+msgid "Testimonial Style"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16852
+msgid "Show Stars"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16887
+msgid "Cite Color"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16900
+msgid "Add testimonial text"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16909
+msgid "Add cite text"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:17003
+msgid "Testimonial"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:17004
+#: admin/assets/js/hayyabuild.bundle.js:17014
+msgid "A testimonial is often used to let people know what other people think of you or your product."
+msgstr ""

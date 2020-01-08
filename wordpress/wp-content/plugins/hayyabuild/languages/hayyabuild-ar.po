@@ -1,0 +1,2156 @@
+# Copyright (C) 2019 ZintaThemes
+# This file is distributed under the same license as the HayyaBuild plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: HayyaBuild 5.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hayyabuild\n"
+"POT-Creation-Date: 2019-12-11T17:26:36+01:00\n"
+"PO-Revision-Date: 2019-12-11 18:28+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Domain: hayyabuild\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+
+#. Plugin Name of the plugin
+#: admin/class-hayyabuild-help.php:43
+msgid "HayyaBuild"
+msgstr "هيَابيلد"
+
+#. Plugin URI of the plugin
+msgid "https://hayyabuild.zintathemes.com"
+msgstr "https://hayyabuild.zintathemes.com"
+
+#. Description of the plugin
+msgid ""
+"HayyaBuild allows you to build unlimited headers, pages and footers for your "
+"WordPress website without the needs for writing any code."
+msgstr ""
+
+#. Author of the plugin
+msgid "ZintaThemes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "www.zintathemes.com"
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:43
+msgid "Version"
+msgstr "الإصدار"
+
+#: admin/class-hayyabuild-help.php:48
+msgid "Contact Us"
+msgstr "أتصل بنا"
+
+#: admin/class-hayyabuild-help.php:55
+msgid "First of all, thank you for using HayyaBuild."
+msgstr "في البداية، شكرا لإستخدامك هيَابيلد."
+
+#: admin/class-hayyabuild-help.php:58
+msgid "If we can be of assistance, please do not hesitate to contact us at"
+msgstr "إذا كنت ترغب في المساعدة الرجاء لا تردد في الإتصال بنا"
+
+#: admin/class-hayyabuild-help.php:59
+msgid "Support."
+msgstr ""
+
+#: admin/class-hayyabuild-help.php:61
+msgid "If you like it, Please don`t forget to write a good review."
+msgstr "إذا أعجبتك لا تنسى إضافة تقييم جيد للإضافة."
+
+#: admin/class-hayyabuild-help.php:70
+msgid "Click here to write your reivew."
+msgstr "أضغط هنا لإضافة تقييم."
+
+#: admin/class-hayyabuild-help.php:76
+msgid "Need help? You want to report a bug?"
+msgstr "تريد المساعدة؟ أو ترغب في الإبلاغ عن مشكلة؟"
+
+#: admin/class-hayyabuild-help.php:78
+msgid "You can find us on:"
+msgstr "يمكنك التواصل معنا عبر:"
+
+#: admin/class-hayyabuild-help.php:88
+msgid "Plugin Website"
+msgstr "الموقع الرسمي"
+
+#: admin/class-hayyabuild-help.php:89
+msgid "Our Website"
+msgstr "موقعنا"
+
+#: admin/class-hayyabuild-help.php:94
+msgid "Help"
+msgstr "مساعدة"
+
+#: admin/class-hayyabuild-help.php:98
+msgid "Setup Your Template"
+msgstr "تهيئة القالب"
+
+#: admin/class-hayyabuild-help.php:101
+msgid ""
+"To use HayyaBuild to only building pages layouts and shortcodes, you don`t "
+"have to follow these steps. But it prefers to do so to take advantage of all "
+"HayyaBuild features."
+msgstr ""
+"لإستخدام هيَابيلد في بناء الصفحات الإختصارات البرمجية. لست مضطرا لإتباع هذه "
+"التعليمات. لكن لا يفضل ذلك للإستفادة من جميع مميزات هيَابيلد."
+
+#: admin/class-hayyabuild-help.php:103
+msgid ""
+"To use HayyaBuild to build headers and footers and your theme doesn`t support "
+"HayyaBuild by default just follow these steps."
+msgstr ""
+"لإستخدام هيَابيلد في بناء الترويسة و التذييل لموقعك و القالب الخاص بك لا يدعم "
+"هيَابيلد أتبع التعليمات التالية."
+
+#: admin/class-hayyabuild-help.php:105
+msgid "Make a backup from header.php and footer.php files."
+msgstr "خد نسخة إحتياطية من الملفين header.php و footer.php و أحتفظ بهما."
+
+#: admin/class-hayyabuild-help.php:107
+msgid ""
+"Now open \"Edit Themes\" page which is located in the WordPress Dashboard > "
+"Appearance > Editor"
+msgstr ""
+"الأن أفتح \"محرر القوالب\" و الذي يمكنك الوصول إليه من \"مظهر\" ← \"محرر "
+"القوالب\""
+
+#: admin/class-hayyabuild-help.php:110
+msgid ""
+"From template files list \"on the right\" choose \"Theme Header\" (header.php)"
+msgstr "من قائمة الملفات على اليسار أختر \"ترويسة القالب\" (header.php)"
+
+#: admin/class-hayyabuild-help.php:113
+msgid "Now search for the header tag and replace it with hayybuild function."
+msgstr ""
+"الآن إبحث عن النص البرمجي الخاص بالترويسة و إستبدله بنص إستدعاء هيَابيلد كما "
+"يلي."
+
+#: admin/class-hayyabuild-help.php:115
+msgid ""
+"<header> .... </header> OR <div id=\"header\"> .... </div> or anything else"
+msgstr "<header> .... </header> أو <div id=\"header\"> .... </div> أو ما يشابهه"
+
+#: admin/class-hayyabuild-help.php:117
+msgid "with this code"
+msgstr "بهذا النص البرمجي"
+
+#: admin/class-hayyabuild-help.php:119 admin/class-hayyabuild-help.php:133
+msgid "<?php hayyabuild();?>"
+msgstr "<؟ php hayyabuild ()؛؟>"
+
+#: admin/class-hayyabuild-help.php:121
+msgid "and click on Update"
+msgstr "ثم أضغط تحديث الملف"
+
+#: admin/class-hayyabuild-help.php:124
+msgid ""
+"From Editor and template files list \"on the right\" choose Theme Footer "
+"(footer.php)"
+msgstr "من قائمة الملفات على اليسار أختر \"تذييل القالب\" (footer.php)"
+
+#: admin/class-hayyabuild-help.php:127
+msgid "Now search for the footer tag and replace it with hayybuild function"
+msgstr ""
+"الآن إبحث عن النص البرمجي الخاص بالتذييل و إستبدله بنص إستدعاء هيَابيلد كما يلي"
+
+#: admin/class-hayyabuild-help.php:129
+msgid ""
+"<footer> .... </footer> OR <div id=\"footer\"> .... </div> or anything else"
+msgstr "<footer> .... </footer> أو <div id=\"footer\"> .... </div> أو ما يشابهه"
+
+#: admin/class-hayyabuild-help.php:131
+msgid "With this code"
+msgstr "بهذا النص البرمجي"
+
+#: admin/class-hayyabuild-help.php:138
+msgid ""
+"You can edit header.php and footer.php with any text editor from your desktop "
+"and then upload it to your WordPress theme directory."
+msgstr ""
+"بإمكانك تعديل الملفين header.php و footer.php بأي محرر نصوص من سطح المكتب بعد "
+"ذلك قم برفعه لمكانه."
+
+#: admin/class-hayyabuild-help.php:141
+msgid "You can try Hayya Theme from WordPress"
+msgstr "كما بمكنك تجربة قالب هيَا المجاني الموجود على wordpress.org"
+
+#: admin/class-hayyabuild-import.php:64 admin/class-hayyabuild-view.php:101
+msgid "Import"
+msgstr "إستراد"
+
+#: admin/class-hayyabuild-import.php:67
+msgid "File"
+msgstr "ملف"
+
+#: admin/class-hayyabuild-import.php:76
+msgid "Include pages list: "
+msgstr "قائمة الصفحات: "
+
+#: admin/class-hayyabuild-list.php:70 admin/class-hayyabuild-list.php:72
+msgid "Published"
+msgstr "نشر"
+
+#: admin/class-hayyabuild-list.php:77 admin/class-hayyabuild-list.php:79
+msgid "Draft"
+msgstr "مسودة"
+
+#: admin/class-hayyabuild-list.php:84 admin/class-hayyabuild-list.php:86
+#: admin/class-hayyabuild-list.php:216
+msgid "Trash"
+msgstr "االمهملات"
+
+#: admin/class-hayyabuild-list.php:97 admin/class-hayyabuild-view.php:169
+msgid "All"
+msgstr "الكل"
+
+#: admin/class-hayyabuild-list.php:98 admin/class-hayyabuild-view.php:170
+msgid "Headers"
+msgstr "الترويسة"
+
+#: admin/class-hayyabuild-list.php:99
+msgid "Pages Content"
+msgstr "محتوى الصفحات"
+
+#: admin/class-hayyabuild-list.php:100 admin/class-hayyabuild-view.php:171
+msgid "Footers"
+msgstr "التذييل"
+
+#: admin/class-hayyabuild-list.php:200
+msgid "Pages List: "
+msgstr "قائمة الصفحات: "
+
+#: admin/class-hayyabuild-list.php:201 admin/class-hayyabuild-view.php:201
+#: admin/class-hayyabuild-view.php:264
+msgid "Type: "
+msgstr "النوع: "
+
+#: admin/class-hayyabuild-list.php:204
+msgid "Shortcode"
+msgstr "إختصار برمجي"
+
+#: admin/class-hayyabuild-list.php:210 admin/class-hayyabuild-list.php:211
+msgid "Edit"
+msgstr "تعديل"
+
+#: admin/class-hayyabuild-list.php:221
+msgid "Publish"
+msgstr "نشر"
+
+#: admin/class-hayyabuild-list.php:225
+msgid "Restore"
+msgstr "إستعادة"
+
+#: admin/class-hayyabuild-list.php:228
+msgid "Delete"
+msgstr "حذف"
+
+#: admin/class-hayyabuild-list.php:233
+msgid "Export"
+msgstr "تصدير"
+
+#: admin/class-hayyabuild-metabox.php:68 admin/class-hayyabuild-metabox.php:71
+msgid "Title"
+msgstr "العنوان"
+
+#: admin/class-hayyabuild-metabox.php:79
+msgid "Background type"
+msgstr "نوع الخلقية"
+
+#: admin/class-hayyabuild-metabox.php:96
+msgid "Background image"
+msgstr "خلفية مصورة"
+
+#: admin/class-hayyabuild-metabox.php:100
+msgid "Image URL"
+msgstr "رابط الصورة"
+
+#: admin/class-hayyabuild-metabox.php:102 admin/class-hayyabuild-metabox.php:177
+msgid "Select"
+msgstr "أختر"
+
+#: admin/class-hayyabuild-metabox.php:110
+#: admin/assets/js/hayyabuild.bundle.js:10817
+msgid "Background repeat"
+msgstr "تكرار الخلفية"
+
+#: admin/class-hayyabuild-metabox.php:127
+#: admin/assets/js/hayyabuild.bundle.js:10803
+msgid "Background size"
+msgstr "حجم الخلفية"
+
+#: admin/class-hayyabuild-metabox.php:144
+msgid "Background Effects"
+msgstr "تأثيرات الخلفية"
+
+#: admin/class-hayyabuild-metabox.php:148 admin/class-hayyabuild-metabox.php:200
+msgid "Disable"
+msgstr "تعطيل"
+
+#: admin/class-hayyabuild-metabox.php:171
+msgid "Background Video"
+msgstr "خلفية فيديو"
+
+#: admin/class-hayyabuild-metabox.php:175
+msgid "Video URL"
+msgstr "رابط الفيديو"
+
+#: admin/class-hayyabuild-metabox.php:187
+#: admin/assets/js/hayyabuild.bundle.js:10776
+msgid "Background color"
+msgstr "خلفية ملونة"
+
+#: admin/class-hayyabuild-metabox.php:196
+msgid "Scroll Effects"
+msgstr "تأثير الإنزلاق"
+
+#: admin/class-hayyabuild-metabox.php:227
+#: admin/assets/js/hayyabuild.bundle.js:10428
+msgid "Text color"
+msgstr "لون الكتابة"
+
+#: admin/class-hayyabuild-metabox.php:237
+msgid "Height"
+msgstr "الإرتفاع"
+
+#: admin/class-hayyabuild-metabox.php:261
+#: admin/assets/js/hayyabuild.bundle.js:10385
+#: admin/assets/js/hayyabuild.bundle.js:15777
+msgid "Border Color"
+msgstr "لون الحواف"
+
+#: admin/class-hayyabuild-metabox.php:283
+#: admin/assets/js/hayyabuild.bundle.js:10255
+msgid "Margin"
+msgstr "حافة"
+
+#: admin/class-hayyabuild-metabox.php:289
+#: admin/assets/js/hayyabuild.bundle.js:10291
+msgid "Border"
+msgstr "الحواف"
+
+#: admin/class-hayyabuild-metabox.php:295
+#: admin/assets/js/hayyabuild.bundle.js:10329
+msgid "Padding"
+msgstr "حشوة"
+
+#: admin/class-hayyabuild-metabox.php:316 admin/class-hayyabuild-metabox.php:329
+#: admin/class-hayyabuild-view.php:295
+msgid "Pages List"
+msgstr "قائمة الصفحات"
+
+#: admin/class-hayyabuild-metabox.php:341 admin/class-hayyabuild-view.php:299
+msgid "Other Pages"
+msgstr "صفحات أخرى"
+
+#: admin/class-hayyabuild-metabox.php:374
+msgid "Just write CSS code, \"without syle tag\"."
+msgstr "فقط قم بكتابة نص الـ CSS \"بذون <style>\"."
+
+#: admin/class-hayyabuild-settings.php:46
+#: admin/assets/js/hayyabuild.bundle.js:5988
+#: admin/assets/js/hayyabuild.bundle.js:6181
+#: admin/assets/js/hayyabuild.bundle.js:6669
+#: admin/assets/js/hayyabuild.bundle.js:6920
+#: admin/assets/js/hayyabuild.bundle.js:7155
+#: admin/assets/js/hayyabuild.bundle.js:7364
+#: admin/assets/js/hayyabuild.bundle.js:7781
+#: admin/assets/js/hayyabuild.bundle.js:8177
+#: admin/assets/js/hayyabuild.bundle.js:8388
+#: admin/assets/js/hayyabuild.bundle.js:8588
+#: admin/assets/js/hayyabuild.bundle.js:8710
+#: admin/assets/js/hayyabuild.bundle.js:8914
+#: admin/assets/js/hayyabuild.bundle.js:9096
+#: admin/assets/js/hayyabuild.bundle.js:9310
+#: admin/assets/js/hayyabuild.bundle.js:13355
+#: admin/assets/js/hayyabuild.bundle.js:13531
+#: admin/assets/js/hayyabuild.bundle.js:13980
+#: admin/assets/js/hayyabuild.bundle.js:14199
+#: admin/assets/js/hayyabuild.bundle.js:14497
+#: admin/assets/js/hayyabuild.bundle.js:14734
+#: admin/assets/js/hayyabuild.bundle.js:15082
+#: admin/assets/js/hayyabuild.bundle.js:15392
+#: admin/assets/js/hayyabuild.bundle.js:15757
+#: admin/assets/js/hayyabuild.bundle.js:16005
+#: admin/assets/js/hayyabuild.bundle.js:16171
+#: admin/assets/js/hayyabuild.bundle.js:16419
+#: admin/assets/js/hayyabuild.bundle.js:16856
+msgid "HayyaBuild Options"
+msgstr "إعدادات هيَابيلد"
+
+#: admin/class-hayyabuild-settings.php:57
+msgid "Main"
+msgstr "الرئيسية"
+
+#: admin/class-hayyabuild-settings.php:62
+msgid "Google API key"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:65
+msgid "API Key"
+msgstr ""
+
+#: admin/class-hayyabuild-settings.php:72
+msgid "Save Settings"
+msgstr "حفظ الإعدادات"
+
+#: admin/class-hayyabuild-settings.php:73
+msgid "Cancel Changes"
+msgstr "إلغاء التغييرات"
+
+#: admin/class-hayyabuild-view.php:51
+msgid "This list is empty!"
+msgstr "هذه القائمة فارغة!"
+
+#: admin/class-hayyabuild-view.php:55
+msgid "New Header"
+msgstr "ترويسة جديدة"
+
+#: admin/class-hayyabuild-view.php:56
+msgid "New Content"
+msgstr "محتوى جديد"
+
+#: admin/class-hayyabuild-view.php:57
+msgid "New Footer"
+msgstr "تذييل جديد"
+
+#: admin/class-hayyabuild-view.php:73
+msgid "HayyaBuild Version 5.0 and later require WordPress 5.0 or later!"
+msgstr "هيَابيلد الإصدار 5.0 تحتاج لووردبريس الإصدار 5.0 أو أعلى!"
+
+#: admin/class-hayyabuild-view.php:74
+msgid "To use HayyaBuild please upgrade WordPress!"
+msgstr "لإستحدام هيَابيلد الرجاء ترقية الووردبريس!"
+
+#: admin/class-hayyabuild-view.php:134
+msgid ""
+"This feature is available only in HayyaBuild Pro. You can unlock all features "
+"by getting HayyaBuild Pro version."
+msgstr ""
+"هذه الميزة موجودة فقط في الإصدار الإحترافي. بإمكانك الحصول على جميع المميزات "
+"بحصولك على الإصدار الإحترافي."
+
+#: admin/class-hayyabuild-view.php:138
+msgid "GET IT NOW"
+msgstr "أحصل عليها الأن"
+
+#: admin/class-hayyabuild-view.php:160
+msgid "Templates List"
+msgstr "قائمة القوالب"
+
+#: admin/class-hayyabuild-view.php:214
+msgid "Create"
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:248
+msgid "New from template"
+msgstr "إنشاء من القوالب"
+
+#: admin/class-hayyabuild-view.php:283
+msgid "Pages"
+msgstr "الصفحات"
+
+#: admin/class-hayyabuild-view.php:311
+msgid "Add"
+msgstr "أضف"
+
+#: admin/class-hayyabuild-view.php:360
+msgid "Sorry about that. But this feature is unavailable in lite version."
+msgstr ""
+
+#: admin/class-hayyabuild-view.php:362
+#, fuzzy
+#| msgid "Get More Modules"
+msgid "Get more features"
+msgstr "أحصل على المزيد من المكونات"
+
+#: admin/class-hayyabuild-view.php:364
+msgid "from here."
+msgstr ""
+
+#: includes/class-hayyabuild-loader.php:135
+msgctxt "WordPress Layout Builder"
+msgid "HayyaBuild"
+msgstr "هيَابيلد"
+
+#: admin/assets/js/hayyabuild.bundle.js:5961
+#: admin/assets/js/hayyabuild.bundle.js:6616
+#: admin/assets/js/hayyabuild.bundle.js:7083
+#: admin/assets/js/hayyabuild.bundle.js:8699
+#: admin/assets/js/hayyabuild.bundle.js:9067
+#: admin/assets/js/hayyabuild.bundle.js:9273
+#: admin/assets/js/hayyabuild.bundle.js:12397
+#: admin/assets/js/hayyabuild.bundle.js:14698
+#: admin/assets/js/hayyabuild.bundle.js:16152
+msgid "Icon"
+msgstr "الأيقونة"
+
+#: admin/assets/js/hayyabuild.bundle.js:5962
+#: admin/assets/js/hayyabuild.bundle.js:6617
+#: admin/assets/js/hayyabuild.bundle.js:6901
+#: admin/assets/js/hayyabuild.bundle.js:6911
+#: admin/assets/js/hayyabuild.bundle.js:7084
+#: admin/assets/js/hayyabuild.bundle.js:7638
+#: admin/assets/js/hayyabuild.bundle.js:8700
+#: admin/assets/js/hayyabuild.bundle.js:9068
+#: admin/assets/js/hayyabuild.bundle.js:9274
+#: admin/assets/js/hayyabuild.bundle.js:12398
+#: admin/assets/js/hayyabuild.bundle.js:13522
+#: admin/assets/js/hayyabuild.bundle.js:14699
+#: admin/assets/js/hayyabuild.bundle.js:16153
+msgid "Insert icon class"
+msgstr "أضف رمز الأيقونة"
+
+#: admin/assets/js/hayyabuild.bundle.js:5963
+#: admin/assets/js/hayyabuild.bundle.js:6618
+#: admin/assets/js/hayyabuild.bundle.js:6902
+#: admin/assets/js/hayyabuild.bundle.js:6912
+#: admin/assets/js/hayyabuild.bundle.js:7085
+#: admin/assets/js/hayyabuild.bundle.js:7639
+#: admin/assets/js/hayyabuild.bundle.js:8701
+#: admin/assets/js/hayyabuild.bundle.js:9069
+#: admin/assets/js/hayyabuild.bundle.js:9275
+#: admin/assets/js/hayyabuild.bundle.js:12399
+#: admin/assets/js/hayyabuild.bundle.js:13523
+#: admin/assets/js/hayyabuild.bundle.js:14700
+#: admin/assets/js/hayyabuild.bundle.js:16154
+msgid "Search for icon"
+msgstr "البحث عن أيقونة"
+
+#: admin/assets/js/hayyabuild.bundle.js:5972
+msgid "Always expanded"
+msgstr "توسيع دائماً"
+
+#: admin/assets/js/hayyabuild.bundle.js:5980
+#, fuzzy
+#| msgid "Expand on Hover"
+msgid "Expand when load"
+msgstr "توسيع عند الوقوف فوقه"
+
+#: admin/assets/js/hayyabuild.bundle.js:6019
+#, fuzzy
+#| msgid "Insert icon class"
+msgid "Insert Accordion Title"
+msgstr "أضف رمز الأيقونة"
+
+#: admin/assets/js/hayyabuild.bundle.js:6157
+#: admin/assets/js/hayyabuild.bundle.js:15074
+msgid "Vertical"
+msgstr "عمودية"
+
+#: admin/assets/js/hayyabuild.bundle.js:6165
+msgid "Expandable"
+msgstr "قابل للتوسع"
+
+#: admin/assets/js/hayyabuild.bundle.js:6173
+#: admin/assets/js/hayyabuild.bundle.js:16382
+#, fuzzy
+#| msgid "Home Icon"
+msgid "Hide Plus Icon"
+msgstr "ايقونة الصفحة الرئيسية"
+
+#: admin/assets/js/hayyabuild.bundle.js:6246
+msgid "Accordion"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6248
+msgid ""
+"The hayyabuild ccordion is a block that organizes content within collapsable "
+"items."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6276
+#, fuzzy
+#| msgid "Insert icon class"
+msgid "Accordion Title 1"
+msgstr "أضف رمز الأيقونة"
+
+#: admin/assets/js/hayyabuild.bundle.js:6282
+#, fuzzy
+#| msgid "Insert icon class"
+msgid "Accordion Title 2"
+msgstr "أضف رمز الأيقونة"
+
+#: admin/assets/js/hayyabuild.bundle.js:6288
+#, fuzzy
+#| msgid "Insert icon class"
+msgid "Accordion Title 3"
+msgstr "أضف رمز الأيقونة"
+
+#: admin/assets/js/hayyabuild.bundle.js:6379
+msgid "Accordion Panel"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6525
+msgid "Alert Box"
+msgstr "صندوق التنبيه"
+
+#: admin/assets/js/hayyabuild.bundle.js:6527
+#: admin/assets/js/hayyabuild.bundle.js:6568
+msgid ""
+"Alerts. Provide contextual feedback messages for typical user actions with "
+"the handful of available and flexible alert messages."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6598
+#: admin/assets/js/hayyabuild.bundle.js:7055
+#: admin/assets/js/hayyabuild.bundle.js:7798
+#: admin/assets/js/hayyabuild.bundle.js:9065
+#: admin/assets/js/hayyabuild.bundle.js:9271
+msgid "Button Settings"
+msgstr "إعدادات الزر"
+
+#: admin/assets/js/hayyabuild.bundle.js:6600
+msgid "Dismissible"
+msgstr "قابل للإغلاق"
+
+#: admin/assets/js/hayyabuild.bundle.js:6608
+msgid "Remember dismissible state"
+msgstr "تذكر حالة الإغلاق"
+
+#: admin/assets/js/hayyabuild.bundle.js:6629
+msgid "Alert style"
+msgstr "نمط التنبيه"
+
+#: admin/assets/js/hayyabuild.bundle.js:6633
+msgid "primary"
+msgstr "ابتدائي"
+
+#: admin/assets/js/hayyabuild.bundle.js:6637
+msgid "Info"
+msgstr "معلومات"
+
+#: admin/assets/js/hayyabuild.bundle.js:6641
+msgid "Success"
+msgstr "نجاح"
+
+#: admin/assets/js/hayyabuild.bundle.js:6645
+msgid "Warning"
+msgstr "تحذير"
+
+#: admin/assets/js/hayyabuild.bundle.js:6649
+msgid "Danger"
+msgstr "خطر"
+
+#: admin/assets/js/hayyabuild.bundle.js:6659
+msgid "Rounded Corners"
+msgstr "حواف مدورة"
+
+#: admin/assets/js/hayyabuild.bundle.js:6692
+msgid "Add text here!"
+msgstr "أضف نص هنا!"
+
+#: admin/assets/js/hayyabuild.bundle.js:6839
+msgid "Breadcrumb Menu"
+msgstr "قائمة متتالية"
+
+#: admin/assets/js/hayyabuild.bundle.js:6840
+msgid ""
+"A breadcrumb or breadcrumb trail is a graphical control element frequently "
+"used as a navigational aid in user interfaces and on web pages. It allows "
+"users to keep track and maintain awareness of their locations within websites."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:6846
+msgid "Home"
+msgstr "الرئيسية"
+
+#: admin/assets/js/hayyabuild.bundle.js:6890
+#: admin/assets/js/hayyabuild.bundle.js:14454
+msgid "Breadcrumb Menu Settings"
+msgstr "إعدادت القائمة المتتالية"
+
+#: admin/assets/js/hayyabuild.bundle.js:6892
+msgid "Home Title"
+msgstr "أسم الصفحة الرئيسية"
+
+#: admin/assets/js/hayyabuild.bundle.js:6900
+msgid "Home Icon"
+msgstr "ايقونة الصفحة الرئيسية"
+
+#: admin/assets/js/hayyabuild.bundle.js:6910
+msgid "Separator Icon"
+msgstr "ايقونة الفواصل"
+
+#: admin/assets/js/hayyabuild.bundle.js:7012
+#: admin/assets/js/hayyabuild.bundle.js:8139
+#: admin/assets/js/hayyabuild.bundle.js:13229
+#: admin/assets/js/hayyabuild.bundle.js:15937
+msgid "Button"
+msgstr "زر"
+
+#: admin/assets/js/hayyabuild.bundle.js:7013
+msgid ""
+"The button block defines a clickable button. Inside a button block you can "
+"put content, like text or icon."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7057
+#: admin/assets/js/hayyabuild.bundle.js:7800
+msgid "Button title"
+msgstr "عنوان الزر"
+
+#: admin/assets/js/hayyabuild.bundle.js:7065
+#: admin/assets/js/hayyabuild.bundle.js:7808
+msgid "Button Link"
+msgstr "رابط زر"
+
+#: admin/assets/js/hayyabuild.bundle.js:7073
+msgid "Button size"
+msgstr "حجم الزر"
+
+#: admin/assets/js/hayyabuild.bundle.js:7094
+msgid "Open in new tab"
+msgstr "فتح في علامة تبويب جديدة"
+
+#: admin/assets/js/hayyabuild.bundle.js:7102
+msgid "Wave effect"
+msgstr "التأثيرات"
+
+#: admin/assets/js/hayyabuild.bundle.js:7110
+msgid "Shadow effect"
+msgstr "تأثير الظل"
+
+#: admin/assets/js/hayyabuild.bundle.js:7118
+#: admin/assets/js/hayyabuild.bundle.js:7711
+msgid "Effect color"
+msgstr "تأثير اللون"
+
+#: admin/assets/js/hayyabuild.bundle.js:7121
+#: admin/assets/js/hayyabuild.bundle.js:7714
+#: admin/assets/js/hayyabuild.bundle.js:14463
+msgid "Light"
+msgstr "فاتح"
+
+#: admin/assets/js/hayyabuild.bundle.js:7125
+#: admin/assets/js/hayyabuild.bundle.js:7718
+msgid "Red"
+msgstr "أحمر"
+
+#: admin/assets/js/hayyabuild.bundle.js:7129
+#: admin/assets/js/hayyabuild.bundle.js:7722
+msgid "Yellow"
+msgstr "الأصفر"
+
+#: admin/assets/js/hayyabuild.bundle.js:7133
+#: admin/assets/js/hayyabuild.bundle.js:7726
+msgid "Orange"
+msgstr "البرتقالي"
+
+#: admin/assets/js/hayyabuild.bundle.js:7137
+#: admin/assets/js/hayyabuild.bundle.js:7730
+msgid "Purple"
+msgstr "أرجواني"
+
+#: admin/assets/js/hayyabuild.bundle.js:7141
+#: admin/assets/js/hayyabuild.bundle.js:7734
+msgid "Green"
+msgstr "أخضر"
+
+#: admin/assets/js/hayyabuild.bundle.js:7145
+#: admin/assets/js/hayyabuild.bundle.js:7738
+msgid "Teal"
+msgstr "بط نهري صغير"
+
+#: admin/assets/js/hayyabuild.bundle.js:7354
+msgid "Space between buttons"
+msgstr "المسافة بين الإزرار"
+
+#: admin/assets/js/hayyabuild.bundle.js:7439
+msgid "Buttons Group"
+msgstr "مجموعة أزرار"
+
+#: admin/assets/js/hayyabuild.bundle.js:7440
+msgid "The buttons block is row of clickable buttons."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7463
+#, fuzzy
+#| msgid "Button"
+msgid "Button 1"
+msgstr "زر"
+
+#: admin/assets/js/hayyabuild.bundle.js:7473
+#, fuzzy
+#| msgid "Button"
+msgid "Button 2"
+msgstr "زر"
+
+#: admin/assets/js/hayyabuild.bundle.js:7482
+#, fuzzy
+#| msgid "Button"
+msgid "Button 3"
+msgstr "زر"
+
+#: admin/assets/js/hayyabuild.bundle.js:7635
+#, fuzzy
+#| msgid "Color Settings"
+msgid "Card Settings"
+msgstr "إعدادات الألوان"
+
+#: admin/assets/js/hayyabuild.bundle.js:7637
+#, fuzzy
+#| msgid "Icon"
+msgid "Card Icon"
+msgstr "الأيقونة"
+
+#: admin/assets/js/hayyabuild.bundle.js:7648
+#: admin/assets/js/hayyabuild.bundle.js:15241
+msgid "Icons size"
+msgstr "حجم الإيقونات"
+
+#: admin/assets/js/hayyabuild.bundle.js:7658
+#, fuzzy
+#| msgid "Wave effect"
+msgid "Hover Effect"
+msgstr "التأثيرات"
+
+#: admin/assets/js/hayyabuild.bundle.js:7661
+#: admin/assets/js/hayyabuild.bundle.js:15709
+msgid "Empty"
+msgstr "فارغ"
+
+#: admin/assets/js/hayyabuild.bundle.js:7665
+#, fuzzy
+#| msgid "Slide right"
+msgid "Slide Right"
+msgstr "زحف لليمين"
+
+#: admin/assets/js/hayyabuild.bundle.js:7669
+#: admin/assets/js/hayyabuild.bundle.js:8366
+#: admin/assets/js/hayyabuild.bundle.js:9569
+msgid "Slide up"
+msgstr "زحف للأعلى"
+
+#: admin/assets/js/hayyabuild.bundle.js:7673
+#, fuzzy
+#| msgid "Slide down"
+msgid "Slide Down"
+msgstr "زحف للأسفل"
+
+#: admin/assets/js/hayyabuild.bundle.js:7677
+#, fuzzy
+#| msgid "Slide left"
+msgid "Slide Left"
+msgstr "زحف لليسار"
+
+#: admin/assets/js/hayyabuild.bundle.js:7681
+#, fuzzy
+#| msgid "Scale in"
+msgid "Scale In"
+msgstr "تكبير"
+
+#: admin/assets/js/hayyabuild.bundle.js:7685
+msgid "Rotate"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7695
+#, fuzzy
+#| msgid "Shadow effect"
+msgid "Shadow Effect"
+msgstr "تأثير الظل"
+
+#: admin/assets/js/hayyabuild.bundle.js:7703
+#, fuzzy
+#| msgid "Wave effect"
+msgid "Wave Effect"
+msgstr "التأثيرات"
+
+#: admin/assets/js/hayyabuild.bundle.js:7761
+msgid "Remove"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7764
+#, fuzzy
+#| msgid "Background Image"
+msgid "Card Image"
+msgstr "صورة الخلفية"
+
+#: admin/assets/js/hayyabuild.bundle.js:7765
+msgid "Keep it empty to display icon instead."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7773
+#, fuzzy
+#| msgid "Home Title"
+msgid "Image title"
+msgstr "أسم الصفحة الرئيسية"
+
+#: admin/assets/js/hayyabuild.bundle.js:7835
+msgid "Add card title"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7848
+#, fuzzy
+#| msgid "Add cite text"
+msgid "Add card text"
+msgstr "أسم الشاهد"
+
+#: admin/assets/js/hayyabuild.bundle.js:7977
+#, fuzzy
+#| msgid "Info"
+msgid "Info Card"
+msgstr "معلومات"
+
+#: admin/assets/js/hayyabuild.bundle.js:7978
+#: admin/assets/js/hayyabuild.bundle.js:7987
+msgid ""
+"Information cards are personal digital identities that people can use online, "
+"and the key component of an identity metasystem."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:7986
+#, fuzzy
+#| msgid "Title"
+msgid "Card Title"
+msgstr "العنوان"
+
+#: admin/assets/js/hayyabuild.bundle.js:7988
+#, fuzzy
+#| msgid "Button"
+msgid "Card Button"
+msgstr "زر"
+
+#: admin/assets/js/hayyabuild.bundle.js:8113
+msgid "Content Box"
+msgstr "صندوق محتوى"
+
+#: admin/assets/js/hayyabuild.bundle.js:8115
+#: admin/assets/js/hayyabuild.bundle.js:8133
+msgid ""
+"The Content Box block is the generic container for flow content. It has no "
+"effect on the content or layout until customize it with all options provided "
+"by HayyaBuild."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8159
+#: admin/assets/js/hayyabuild.bundle.js:13715
+msgid "Content box Settings"
+msgstr "إعدادات صندوق المحتوى"
+
+#: admin/assets/js/hayyabuild.bundle.js:8161
+msgid "Container Box"
+msgstr "صندوق الحاوية"
+
+#: admin/assets/js/hayyabuild.bundle.js:8169
+#: admin/assets/js/hayyabuild.bundle.js:8580
+msgid "Content Alignment"
+msgstr "محاذاة المحتوى"
+
+#: admin/assets/js/hayyabuild.bundle.js:8344
+msgid "Flip"
+msgstr "دوران"
+
+#: admin/assets/js/hayyabuild.bundle.js:8355
+#, fuzzy
+#| msgid "Slide right"
+msgid "Sliding type"
+msgstr "زحف لليمين"
+
+#: admin/assets/js/hayyabuild.bundle.js:8358
+msgid "Flipping"
+msgstr "دوران"
+
+#: admin/assets/js/hayyabuild.bundle.js:8362
+msgid "Flipping up"
+msgstr "دوران للأعلى"
+
+#: admin/assets/js/hayyabuild.bundle.js:8370
+#: admin/assets/js/hayyabuild.bundle.js:9566
+msgid "Slide right"
+msgstr "زحف لليمين"
+
+#: admin/assets/js/hayyabuild.bundle.js:8374
+#: admin/assets/js/hayyabuild.bundle.js:9570
+msgid "Slide down"
+msgstr "زحف للأسفل"
+
+#: admin/assets/js/hayyabuild.bundle.js:8378
+#: admin/assets/js/hayyabuild.bundle.js:9565
+msgid "Slide left"
+msgstr "زحف لليسار"
+
+#: admin/assets/js/hayyabuild.bundle.js:8457
+#, fuzzy
+#| msgid "Duple Side Box"
+msgid "Double Sided Box"
+msgstr "صندوق بواجهتان"
+
+#: admin/assets/js/hayyabuild.bundle.js:8459
+msgid ""
+"It`s a box with tow faces the first one is visible and the second one is "
+"hidden, but when hover/tap over it the second one will be visible and the "
+"first one will be hidden."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8563
+msgid "Sides"
+msgstr "الأوجه"
+
+#: admin/assets/js/hayyabuild.bundle.js:8670
+msgid "Features Item"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8697
+#, fuzzy
+#| msgid "Separator Settings"
+msgid "Features Item Settings"
+msgstr "إعدادات الفاصل"
+
+#: admin/assets/js/hayyabuild.bundle.js:8809
+#, fuzzy
+#| msgid "Templates List"
+msgid "Features List"
+msgstr "قائمة القوالب"
+
+#: admin/assets/js/hayyabuild.bundle.js:8810
+msgid ""
+"Features List block are an advanced list to clarify the features of your "
+"products/services."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:8840
+#, fuzzy
+#| msgid "Templates List"
+msgid "Features Line 1."
+msgstr "قائمة القوالب"
+
+#: admin/assets/js/hayyabuild.bundle.js:8852
+#, fuzzy
+#| msgid "Templates List"
+msgid "Features Line 2."
+msgstr "قائمة القوالب"
+
+#: admin/assets/js/hayyabuild.bundle.js:8864
+#, fuzzy
+#| msgid "Templates List"
+msgid "Features Line 3."
+msgstr "قائمة القوالب"
+
+#: admin/assets/js/hayyabuild.bundle.js:8875
+#, fuzzy
+#| msgid "You can find us on:"
+msgid "You can add any block"
+msgstr "يمكنك التواصل معنا عبر:"
+
+#: admin/assets/js/hayyabuild.bundle.js:8904
+#, fuzzy
+#| msgid "Separator Settings"
+msgid "Features List Settings"
+msgstr "إعدادات الفاصل"
+
+#: admin/assets/js/hayyabuild.bundle.js:8906
+#, fuzzy
+#| msgid "Icons size"
+msgid "Show Icons Line"
+msgstr "حجم الإيقونات"
+
+#: admin/assets/js/hayyabuild.bundle.js:8995
+msgid "Go Down Link"
+msgstr "رابط الذهاب لأسفل"
+
+#: admin/assets/js/hayyabuild.bundle.js:8997
+msgid "Add go down link to header."
+msgstr "أضف رابط الذهاب إلى أسفل الصفحة."
+
+#: admin/assets/js/hayyabuild.bundle.js:9078
+#: admin/assets/js/hayyabuild.bundle.js:9284
+msgid "Size"
+msgstr "الحجم"
+
+#: admin/assets/js/hayyabuild.bundle.js:9088
+#: admin/assets/js/hayyabuild.bundle.js:9294
+msgid "Animate"
+msgstr "تأتيرات"
+
+#: admin/assets/js/hayyabuild.bundle.js:9195
+msgid "Go Up Link"
+msgstr "رابط الصعود للأعلى"
+
+#: admin/assets/js/hayyabuild.bundle.js:9197
+msgid "Add go up link to footer."
+msgstr "إضافة رابط الصعود لأعلى الصفحة."
+
+#: admin/assets/js/hayyabuild.bundle.js:9302
+msgid "Add Container"
+msgstr "أضف الحاوية"
+
+#: admin/assets/js/hayyabuild.bundle.js:9538
+msgid "Visibility Options"
+msgstr "إعدادات العرض"
+
+#: admin/assets/js/hayyabuild.bundle.js:9539
+#, fuzzy
+#| msgid "Scroll Options"
+msgid "Scrollin Options"
+msgstr "إعدادات الإنزلاق"
+
+#: admin/assets/js/hayyabuild.bundle.js:9540
+#, fuzzy
+#| msgid "Other Options"
+msgid "Hovering Options"
+msgstr "إعدادات أخرى"
+
+#: admin/assets/js/hayyabuild.bundle.js:9541
+msgid "Other Options"
+msgstr "إعدادات أخرى"
+
+#: admin/assets/js/hayyabuild.bundle.js:9547
+msgid "Visible on small screen < 600px"
+msgstr "عرض في الشاشات الصغيرة > 600px"
+
+#: admin/assets/js/hayyabuild.bundle.js:9548
+msgid "Hidden on small screen < 600px"
+msgstr "إخفاء في الشاشات الصغيرة > 600px"
+
+#: admin/assets/js/hayyabuild.bundle.js:9551
+#, fuzzy
+#| msgid "Visible on medium screen < 992px > 782px"
+msgid "Visible on medium screen < 782px > 600px"
+msgstr "عرض في الشاشات المتوسطة < 782px > 992px"
+
+#: admin/assets/js/hayyabuild.bundle.js:9552
+#, fuzzy
+#| msgid "Hidden on medium screen < 992px > 782px"
+msgid "Hidden on medium screen < 782px > 600px"
+msgstr "إخفاء في الشاشات المتوسطة < 782px > 992px"
+
+#: admin/assets/js/hayyabuild.bundle.js:9555
+msgid "Visible on large screen > 1200px"
+msgstr "عرض في الشاشات الكبيرة > 1200px"
+
+#: admin/assets/js/hayyabuild.bundle.js:9556
+msgid "Hidden on large screen > 1200px"
+msgstr "إخفاء في الشاشات الكبيرة > 1200px"
+
+#: admin/assets/js/hayyabuild.bundle.js:9561
+#: admin/assets/js/hayyabuild.bundle.js:9599
+msgid "Scale in"
+msgstr "تكبير"
+
+#: admin/assets/js/hayyabuild.bundle.js:9562
+#: admin/assets/js/hayyabuild.bundle.js:9600
+msgid "Scale out"
+msgstr "تصغير"
+
+#: admin/assets/js/hayyabuild.bundle.js:9573
+msgid "Fade in"
+msgstr "ظهور"
+
+#: admin/assets/js/hayyabuild.bundle.js:9574
+msgid "Fade out"
+msgstr "إخفاء"
+
+#: admin/assets/js/hayyabuild.bundle.js:9577
+msgid "Left rotation"
+msgstr "دوران لليسار"
+
+#: admin/assets/js/hayyabuild.bundle.js:9578
+msgid "Right rotation"
+msgstr "دوران لليمين"
+
+#: admin/assets/js/hayyabuild.bundle.js:9581
+#, fuzzy
+#| msgid "Left rotation"
+msgid "Up rotation"
+msgstr "دوران لليسار"
+
+#: admin/assets/js/hayyabuild.bundle.js:9582
+#, fuzzy
+#| msgid "Left rotation"
+msgid "Down rotation"
+msgstr "دوران لليسار"
+
+#: admin/assets/js/hayyabuild.bundle.js:9585
+msgid "Fixed background"
+msgstr "خلفية ثابتة"
+
+#: admin/assets/js/hayyabuild.bundle.js:9586
+#, fuzzy
+msgid "Parallax background \"Up\""
+msgstr "رابط الصعود للأعلى"
+
+#: admin/assets/js/hayyabuild.bundle.js:9587
+#, fuzzy
+msgid "Parallax background \"DWON\""
+msgstr "تأثيرات الخلفية"
+
+#: admin/assets/js/hayyabuild.bundle.js:9592
+#, fuzzy
+#| msgid "Background options"
+msgid "Background Zoom-in"
+msgstr "إعدادات الخلفية"
+
+#: admin/assets/js/hayyabuild.bundle.js:9593
+#, fuzzy
+#| msgid "Background color"
+msgid "Background Zoom-out"
+msgstr "خلفية ملونة"
+
+#: admin/assets/js/hayyabuild.bundle.js:9596
+#, fuzzy
+#| msgid "Shadow"
+msgid "Draw Shadow"
+msgstr "ظل"
+
+#: admin/assets/js/hayyabuild.bundle.js:9603
+msgid "Increase visibility"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9604
+msgid "Reduction visibility"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:9609
+msgid "Align left"
+msgstr "محاذاة لليسار"
+
+#: admin/assets/js/hayyabuild.bundle.js:9610
+msgid "Align right"
+msgstr "محاذاة لليمين"
+
+#: admin/assets/js/hayyabuild.bundle.js:9611
+msgid "Align center"
+msgstr "توسيط"
+
+#: admin/assets/js/hayyabuild.bundle.js:9612
+msgid "Align justify"
+msgstr "محاذاة تبرير"
+
+#: admin/assets/js/hayyabuild.bundle.js:9615
+msgid "Center on small screen < 600px"
+msgstr "توسيط في الشاشة الصغيرة <600 بكسل"
+
+#: admin/assets/js/hayyabuild.bundle.js:9616
+msgid "Center on medium screen  < 782px"
+msgstr "توسيط في الشاشة المتوسطة <782 بكسل"
+
+#: admin/assets/js/hayyabuild.bundle.js:9617
+msgid "Center on large screen  < 1200px"
+msgstr "توسيط على الشاشة الكبيرة <1200 بكسل"
+
+#: admin/assets/js/hayyabuild.bundle.js:9740
+msgid "Scroll duration"
+msgstr "المدة"
+
+#: admin/assets/js/hayyabuild.bundle.js:9756
+msgid "Select Easing"
+msgstr "حدد تخفيف"
+
+#: admin/assets/js/hayyabuild.bundle.js:10247
+msgid "Layout options"
+msgstr "إعدادات الخلايا"
+
+#: admin/assets/js/hayyabuild.bundle.js:10365
+msgid "Border options"
+msgstr "إعدادات الحواف"
+
+#: admin/assets/js/hayyabuild.bundle.js:10368
+msgid "Border radius"
+msgstr "حواف منحنية"
+
+#: admin/assets/js/hayyabuild.bundle.js:10381
+#, fuzzy
+msgid "Border color"
+msgstr "لون الحواف"
+
+#: admin/assets/js/hayyabuild.bundle.js:10398
+msgid "Border style"
+msgstr "نوع الحواف"
+
+#: admin/assets/js/hayyabuild.bundle.js:10400
+#: admin/assets/js/hayyabuild.bundle.js:15713
+msgid "Solid"
+msgstr "صلب"
+
+#: admin/assets/js/hayyabuild.bundle.js:10402
+msgid "Dashed"
+msgstr "متقطع"
+
+#: admin/assets/js/hayyabuild.bundle.js:10404
+#: admin/assets/js/hayyabuild.bundle.js:14724
+msgid "Dotted"
+msgstr "منقط"
+
+#: admin/assets/js/hayyabuild.bundle.js:10406
+msgid "Double"
+msgstr "مزدوج"
+
+#: admin/assets/js/hayyabuild.bundle.js:10408
+msgid "Groove"
+msgstr "أخدود"
+
+#: admin/assets/js/hayyabuild.bundle.js:10410
+msgid "Ridge"
+msgstr "قمة جبل"
+
+#: admin/assets/js/hayyabuild.bundle.js:10412
+msgid "Font options"
+msgstr "إعدادات الخط"
+
+#: admin/assets/js/hayyabuild.bundle.js:10415
+msgid "Font size"
+msgstr "حجم الخط"
+
+#: admin/assets/js/hayyabuild.bundle.js:10431
+#: admin/assets/js/hayyabuild.bundle.js:14754
+#: admin/assets/js/hayyabuild.bundle.js:16879
+msgid "Text Color"
+msgstr "لون النص"
+
+#: admin/assets/js/hayyabuild.bundle.js:10439
+#: admin/assets/js/hayyabuild.bundle.js:10442
+msgid "Opacity"
+msgstr "الشفافية"
+
+#: admin/assets/js/hayyabuild.bundle.js:10454
+msgid "Background options"
+msgstr "إعدادات الخلفية"
+
+#: admin/assets/js/hayyabuild.bundle.js:10598
+msgid "Options"
+msgstr "إعدادات"
+
+#: admin/assets/js/hayyabuild.bundle.js:10610
+#, fuzzy
+#| msgid "Inline Style"
+msgid "Block Style"
+msgstr "المظهر"
+
+#: admin/assets/js/hayyabuild.bundle.js:10720
+msgid "Choose Image"
+msgstr "أختر صورة"
+
+#: admin/assets/js/hayyabuild.bundle.js:10780
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+#: admin/assets/js/hayyabuild.bundle.js:10791
+msgid "Select Image"
+msgstr "أختر صورة"
+
+#: admin/assets/js/hayyabuild.bundle.js:10805
+msgid "Length"
+msgstr "فاتح"
+
+#: admin/assets/js/hayyabuild.bundle.js:10807
+msgid "Cover"
+msgstr "التغطية"
+
+#: admin/assets/js/hayyabuild.bundle.js:10809
+msgid "Contain"
+msgstr "يحتوي"
+
+#: admin/assets/js/hayyabuild.bundle.js:10811
+msgid "Initial"
+msgstr "مبدئي"
+
+#: admin/assets/js/hayyabuild.bundle.js:10819
+msgid "Repeat"
+msgstr "كرر"
+
+#: admin/assets/js/hayyabuild.bundle.js:10821
+msgid "Repeat X"
+msgstr "كرر X"
+
+#: admin/assets/js/hayyabuild.bundle.js:10823
+msgid "Repeat Y"
+msgstr "كرر Y"
+
+#: admin/assets/js/hayyabuild.bundle.js:10825
+msgid "No repeat"
+msgstr "لا تكرار"
+
+#: admin/assets/js/hayyabuild.bundle.js:10830
+msgid "Background Image"
+msgstr "صورة الخلفية"
+
+#: admin/assets/js/hayyabuild.bundle.js:12340
+#, fuzzy
+#| msgid "Save"
+msgid "Save Map"
+msgstr "حفظ الإعدادات"
+
+#: admin/assets/js/hayyabuild.bundle.js:12353
+msgid "Full Screen"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:12361
+#, fuzzy
+#| msgid "Add Container"
+msgid "Add Marker"
+msgstr "أضف الحاوية"
+
+#: admin/assets/js/hayyabuild.bundle.js:12390
+#, fuzzy
+#| msgid "You have to save map status before update the post."
+msgid "You have to save map status to save a changes."
+msgstr "يجب عليك حفظ الخريطة قبل حفظ المقالة."
+
+#: admin/assets/js/hayyabuild.bundle.js:12391
+msgid "Open popup when loaded"
+msgstr "إظهار نص العلامة عند التحميل"
+
+#: admin/assets/js/hayyabuild.bundle.js:12406
+msgid "Marker Text"
+msgstr "نص العلامة"
+
+#: admin/assets/js/hayyabuild.bundle.js:12407
+msgid "Popup marker text"
+msgstr "نص العلامة"
+
+#: admin/assets/js/hayyabuild.bundle.js:12415
+#: admin/assets/js/hayyabuild.bundle.js:12417
+#, fuzzy
+#| msgid "Border Color"
+msgid "Marker Color"
+msgstr "لون الحواف"
+
+#: admin/assets/js/hayyabuild.bundle.js:12422
+msgid "Marker Size"
+msgstr "حجم العلامة"
+
+#: admin/assets/js/hayyabuild.bundle.js:12430
+msgid "Remove This Marker"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13148
+msgid "Magic Box"
+msgstr "صندوق سحري"
+
+#: admin/assets/js/hayyabuild.bundle.js:13150
+msgid ""
+"With magic box block you can show or hide inner content based on different "
+"conditions. For example some times you need to show some information for only "
+"logged-in users or you need to put some content in footer only for the front "
+"page."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13223
+msgid "You can use this box to display content under a specific conditions."
+msgstr "بإمكانك إستخدام هذا الصندوق لعرض محتوى بشروط معينة."
+
+#: admin/assets/js/hayyabuild.bundle.js:13261
+#, fuzzy
+#| msgid "Show in all cases"
+msgid "Show in all pages"
+msgstr "عرض في جميع الحالات"
+
+#: admin/assets/js/hayyabuild.bundle.js:13276
+msgid "Logged in users"
+msgstr "مستخدم قام بتسجيل الدخول"
+
+#: admin/assets/js/hayyabuild.bundle.js:13279
+msgid "Never mind!"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13283
+msgid "Show"
+msgstr "عرض"
+
+#: admin/assets/js/hayyabuild.bundle.js:13287
+msgid "Hide"
+msgstr "إخفاء"
+
+#: admin/assets/js/hayyabuild.bundle.js:13299
+#, fuzzy
+#| msgid "Show in pages"
+msgid "Show in front page"
+msgstr "عرض في الصفحات"
+
+#: admin/assets/js/hayyabuild.bundle.js:13308
+#, fuzzy
+#| msgid "Show in pages"
+msgid "show in blog home page"
+msgstr "عرض في الصفحات"
+
+#: admin/assets/js/hayyabuild.bundle.js:13317
+#, fuzzy
+#| msgid "Show in pages"
+msgid "show in post page"
+msgstr "عرض في الصفحات"
+
+#: admin/assets/js/hayyabuild.bundle.js:13326
+#, fuzzy
+#| msgid "Show in pages"
+msgid "Show in author page"
+msgstr "عرض في الصفحات"
+
+#: admin/assets/js/hayyabuild.bundle.js:13335
+msgid "Show in pages"
+msgstr "عرض في الصفحات"
+
+#: admin/assets/js/hayyabuild.bundle.js:13336
+#: admin/assets/js/hayyabuild.bundle.js:13346
+msgid "pages ID’s separated by comma \",\" ."
+msgstr "أرقام الصفحات مفصولة بالـ \",\"."
+
+#: admin/assets/js/hayyabuild.bundle.js:13345
+#, fuzzy
+#| msgid "Hide in pages"
+msgid "Hide from pages"
+msgstr "إخفاء في الصفحات"
+
+#: admin/assets/js/hayyabuild.bundle.js:13425
+msgid "Menu"
+msgstr "قائمة"
+
+#: admin/assets/js/hayyabuild.bundle.js:13427
+msgid ""
+"You can use this menu block in headers as the main menu with many options."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13479
+#: admin/assets/js/hayyabuild.bundle.js:13504
+#: admin/assets/js/hayyabuild.bundle.js:15040
+#: admin/assets/js/hayyabuild.bundle.js:15065
+msgid "Select Menu"
+msgstr "أختر القائمة"
+
+#: admin/assets/js/hayyabuild.bundle.js:13502
+#: admin/assets/js/hayyabuild.bundle.js:15063
+#, fuzzy
+#| msgid "Social Menu Settings"
+msgid "Menu Settings"
+msgstr "إعدادات القائمة"
+
+#: admin/assets/js/hayyabuild.bundle.js:13513
+#: admin/assets/js/hayyabuild.bundle.js:15749
+msgid "Container"
+msgstr "حاوية"
+
+#: admin/assets/js/hayyabuild.bundle.js:13521
+msgid "Menu Icon"
+msgstr "ايقونة القائمة"
+
+#: admin/assets/js/hayyabuild.bundle.js:13663
+msgid "Map"
+msgstr "خريطة"
+
+#: admin/assets/js/hayyabuild.bundle.js:13665
+msgid ""
+"With Map block you can include a map on your site that includes unlimited "
+"markers dropped at the address of locations. "
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13717
+#, fuzzy
+#| msgid "New Content"
+msgid "Show Content"
+msgstr "محتوى جديد"
+
+#: admin/assets/js/hayyabuild.bundle.js:13725
+#, fuzzy
+#| msgid "Map Theme"
+msgid "Map Tiler"
+msgstr "شكل الخريطة"
+
+#: admin/assets/js/hayyabuild.bundle.js:13728
+#: admin/assets/js/hayyabuild.bundle.js:16846
+msgid "Style 1"
+msgstr "نمط 1"
+
+#: admin/assets/js/hayyabuild.bundle.js:13732
+#, fuzzy
+#| msgid "Style 1"
+msgid "Style 2"
+msgstr "نمط 1"
+
+#: admin/assets/js/hayyabuild.bundle.js:13736
+#, fuzzy
+#| msgid "Style 1"
+msgid "Style 3"
+msgstr "نمط 1"
+
+#: admin/assets/js/hayyabuild.bundle.js:13740
+#, fuzzy
+#| msgid "Style 1"
+msgid "Style 4"
+msgstr "نمط 1"
+
+#: admin/assets/js/hayyabuild.bundle.js:13744
+#, fuzzy
+#| msgid "Style 1"
+msgid "Style 5"
+msgstr "نمط 1"
+
+#: admin/assets/js/hayyabuild.bundle.js:13748
+#, fuzzy
+#| msgid "Style 1"
+msgid "Style 6"
+msgstr "نمط 1"
+
+#: admin/assets/js/hayyabuild.bundle.js:13752
+#, fuzzy
+#| msgid "Testimonial Style"
+msgid "Custom Style"
+msgstr "التصميم"
+
+#: admin/assets/js/hayyabuild.bundle.js:13762
+msgid "Custom Map Tiler"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13770
+msgid "Attribution"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13778
+#, fuzzy
+#| msgid "Height"
+msgid "Map Height"
+msgstr "الإرتفاع"
+
+#: admin/assets/js/hayyabuild.bundle.js:13798
+msgid "Save"
+msgstr "حفظ الإعدادات"
+
+#: admin/assets/js/hayyabuild.bundle.js:13879
+msgid "Page content"
+msgstr "محتوى الصفحة"
+
+#: admin/assets/js/hayyabuild.bundle.js:13881
+msgid ""
+"When build any page with HayyaBuild you can add original content of the page "
+"to a any place you want."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:13911
+#, fuzzy
+#| msgid "Pages Content"
+msgid "Page Content"
+msgstr "محتوى الصفحات"
+
+#: admin/assets/js/hayyabuild.bundle.js:13948
+msgid "Column"
+msgstr "عمود"
+
+#: admin/assets/js/hayyabuild.bundle.js:13950
+msgid "A single column."
+msgstr "عمود واحد."
+
+#: admin/assets/js/hayyabuild.bundle.js:13978
+msgid "Column Settings"
+msgstr "إعدادات العمود"
+
+#: admin/assets/js/hayyabuild.bundle.js:14161
+msgid "layouts configuration"
+msgstr "إعدادات الخلية"
+
+#: admin/assets/js/hayyabuild.bundle.js:14166
+msgid "Screen size"
+msgstr "حجم الشاشة"
+
+#: admin/assets/js/hayyabuild.bundle.js:14169
+msgid "Disable responsive"
+msgstr "تعطيل التجاوب مع الشاشة"
+
+#: admin/assets/js/hayyabuild.bundle.js:14173
+msgid "Small screen < 600px"
+msgstr "شاشات صغيرة > 600px"
+
+#: admin/assets/js/hayyabuild.bundle.js:14177
+msgid "Medium screen < 782px"
+msgstr "شاشات متوسطة > 782px"
+
+#: admin/assets/js/hayyabuild.bundle.js:14181
+msgid "Large screen < 1200px"
+msgstr "شاشات كبيرة > 1200px"
+
+#: admin/assets/js/hayyabuild.bundle.js:14190
+#, fuzzy
+#| msgid ""
+#| "creating responsive grid system for small, medium or large screen sizes."
+msgid "create responsive grid system for small, medium or large screen sizes."
+msgstr "إنشاء أعمدة متجاوبة مع حجم الشاشة ما إذا كانت صغيرة أو متوسطة أو كبيرة."
+
+#: admin/assets/js/hayyabuild.bundle.js:14191
+msgid "Center columns vertically"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14276
+msgid "Row"
+msgstr "صف"
+
+#: admin/assets/js/hayyabuild.bundle.js:14277
+msgid ""
+" CSS Grid Layout aka \"Grid\", It is a 2-dimensional grid system, meaning it "
+"can handle both columns and rows."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14323
+#, fuzzy
+#| msgid "Column"
+msgid "Column 1"
+msgstr "عمود"
+
+#: admin/assets/js/hayyabuild.bundle.js:14341
+#, fuzzy
+#| msgid "Column"
+msgid "Column 2"
+msgstr "عمود"
+
+#: admin/assets/js/hayyabuild.bundle.js:14404
+msgid "Search Box"
+msgstr "صندوق البحث"
+
+#: admin/assets/js/hayyabuild.bundle.js:14405
+msgid ""
+" It`s a search input which enables the visitors to find words, sentences, and "
+"numbers in a pages and posts."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:14456
+#: admin/assets/js/hayyabuild.bundle.js:14459
+msgid "Select Theme"
+msgstr "اختر التصميم"
+
+#: admin/assets/js/hayyabuild.bundle.js:14467
+msgid "Dark"
+msgstr "غامق"
+
+#: admin/assets/js/hayyabuild.bundle.js:14471
+msgid "Transparent"
+msgstr "شفَاف"
+
+#: admin/assets/js/hayyabuild.bundle.js:14481
+msgid "Expand on Hover"
+msgstr "توسيع عند الوقوف فوقه"
+
+#: admin/assets/js/hayyabuild.bundle.js:14489
+msgid "Right Align"
+msgstr "محاذاة لليمين"
+
+#. translators: %s: heading level e.g: "1", "2", "3"
+#: admin/assets/js/hayyabuild.bundle.js:14617
+msgid "Heading %d"
+msgstr "العنوان٪ د"
+
+#: admin/assets/js/hayyabuild.bundle.js:14694
+msgid "Separator Settings"
+msgstr "إعدادات الفاصل"
+
+#: admin/assets/js/hayyabuild.bundle.js:14695
+msgid "Text Level"
+msgstr "مستوى النص"
+
+#: admin/assets/js/hayyabuild.bundle.js:14709
+msgid "Duble Lines"
+msgstr "خط مزدوج"
+
+#: admin/assets/js/hayyabuild.bundle.js:14713
+msgid "Apply Mask"
+msgstr "تفعيل القناع"
+
+#: admin/assets/js/hayyabuild.bundle.js:14717
+msgid "Separator Style"
+msgstr "نمط الفاصل"
+
+#: admin/assets/js/hayyabuild.bundle.js:14720
+msgid "Default"
+msgstr "افتراضي"
+
+#: admin/assets/js/hayyabuild.bundle.js:14728
+#, fuzzy
+msgid "dashed"
+msgstr "متقطع"
+
+#: admin/assets/js/hayyabuild.bundle.js:14745
+#: admin/assets/js/hayyabuild.bundle.js:15768
+#: admin/assets/js/hayyabuild.bundle.js:16870
+msgid "Color Settings"
+msgstr "إعدادات الألوان"
+
+#: admin/assets/js/hayyabuild.bundle.js:14762
+msgid "Separator Color"
+msgstr "لون الفاصل"
+
+#: admin/assets/js/hayyabuild.bundle.js:14878
+msgid "Separator"
+msgstr "الفاصل"
+
+#: admin/assets/js/hayyabuild.bundle.js:14879
+#, fuzzy
+#| msgid "You can use this box to display content under a specific conditions."
+msgid " You can use this block to separate the content visually."
+msgstr "بإمكانك إستخدام هذا الصندوق لعرض محتوى بشروط معينة."
+
+#: admin/assets/js/hayyabuild.bundle.js:14888
+#, fuzzy
+#| msgid "Separator Color"
+msgid "Separator Block"
+msgstr "لون الفاصل"
+
+#: admin/assets/js/hayyabuild.bundle.js:14990
+msgid "Simple Menu"
+msgstr "قائمة مبسَطة"
+
+#: admin/assets/js/hayyabuild.bundle.js:14991
+msgid " With Simple Menu block you can add menus to any place."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15179
+msgid "Social Media Menu"
+msgstr "قائمة وسائل التواصل الاجتماعي"
+
+#: admin/assets/js/hayyabuild.bundle.js:15180
+msgid "Easily create beautiful social media menu."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15239
+msgid "Social Menu Settings"
+msgstr "إعدادات القائمة"
+
+#: admin/assets/js/hayyabuild.bundle.js:15251
+msgid "Shadow"
+msgstr "ظل"
+
+#: admin/assets/js/hayyabuild.bundle.js:15259
+msgid "Edit Social Menu"
+msgstr "تحرير القائمة"
+
+#: admin/assets/js/hayyabuild.bundle.js:15267
+msgid "SocialMedia links"
+msgstr "الروابط"
+
+#: admin/assets/js/hayyabuild.bundle.js:15274
+msgid "Facebook"
+msgstr "فيس بوك"
+
+#: admin/assets/js/hayyabuild.bundle.js:15285
+msgid "Twitter"
+msgstr "تويتر"
+
+#: admin/assets/js/hayyabuild.bundle.js:15296
+msgid "Instagram"
+msgstr "إينستاجرام"
+
+#: admin/assets/js/hayyabuild.bundle.js:15307
+msgid "Youtube"
+msgstr "يوتيوب"
+
+#: admin/assets/js/hayyabuild.bundle.js:15318
+msgid "Github"
+msgstr "جيت هب"
+
+#: admin/assets/js/hayyabuild.bundle.js:15329
+msgid "LinkedIn"
+msgstr "ينكدين"
+
+#: admin/assets/js/hayyabuild.bundle.js:15340
+msgid "Pinterest"
+msgstr "موقع Pinterest"
+
+#: admin/assets/js/hayyabuild.bundle.js:15362
+msgid "Flickr"
+msgstr "فليكر"
+
+#: admin/assets/js/hayyabuild.bundle.js:15373
+msgid "Tumblr"
+msgstr "نعرفكم"
+
+#: admin/assets/js/hayyabuild.bundle.js:15384
+msgid "vk"
+msgstr "كيه"
+
+#: admin/assets/js/hayyabuild.bundle.js:15645
+msgid "Spacer"
+msgstr "فاصل"
+
+#: admin/assets/js/hayyabuild.bundle.js:15646
+msgid ""
+"Add white space between blocks and customize height, border and shadow effect."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15648
+msgid "Spacer block."
+msgstr "فاصل."
+
+#: admin/assets/js/hayyabuild.bundle.js:15696
+msgid "Spacer Height"
+msgstr "إرتفاع الفاصل"
+
+#: admin/assets/js/hayyabuild.bundle.js:15706
+msgid "Spacer Style"
+msgstr "التصميم"
+
+#: admin/assets/js/hayyabuild.bundle.js:15717
+msgid "Shadow Center"
+msgstr "ظل في الوسط"
+
+#: admin/assets/js/hayyabuild.bundle.js:15721
+msgid "Shadow Edges"
+msgstr "ظل في الحواف"
+
+#: admin/assets/js/hayyabuild.bundle.js:15725
+msgid "Shadow Right"
+msgstr "ظل في اليمين"
+
+#: admin/assets/js/hayyabuild.bundle.js:15729
+msgid "Shadow Left"
+msgstr "ظل في اليسار"
+
+#: admin/assets/js/hayyabuild.bundle.js:15739
+msgid "Border size"
+msgstr "حجم الحواف"
+
+#: admin/assets/js/hayyabuild.bundle.js:15875
+msgid "Stickybox Box"
+msgstr "صندوق متحرك"
+
+#: admin/assets/js/hayyabuild.bundle.js:15877
+#: admin/assets/js/hayyabuild.bundle.js:15931
+msgid ""
+"This content box will stick to the screen when you reach scroll position."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:15971
+msgid "Sticky box Settings"
+msgstr "إعدادات الصندوق المتحرك"
+
+#: admin/assets/js/hayyabuild.bundle.js:15973
+msgid "Add Container Box"
+msgstr "إضافة صندوق الحاوية"
+
+#: admin/assets/js/hayyabuild.bundle.js:15981
+msgid "Show Only Sticky"
+msgstr "عرض عند التثبيت فقط"
+
+#: admin/assets/js/hayyabuild.bundle.js:15989
+msgid "Show it After Header Ends"
+msgstr "تثبيت بعد انتهاء الترويسة"
+
+#: admin/assets/js/hayyabuild.bundle.js:15997
+msgid "Show it when Scroll up"
+msgstr "تثبيت عند الصعود للأعلى فقط"
+
+#: admin/assets/js/hayyabuild.bundle.js:16163
+msgid "Active"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16198
+msgid "Insert Tab Title"
+msgstr "أضف العنوان"
+
+#: admin/assets/js/hayyabuild.bundle.js:16374
+#, fuzzy
+#| msgid "Content Alignment"
+msgid "Tabs Alignment"
+msgstr "محاذاة المحتوى"
+
+#: admin/assets/js/hayyabuild.bundle.js:16390
+#, fuzzy
+#| msgid "Effect color"
+msgid "Effect"
+msgstr "تأثير اللون"
+
+#: admin/assets/js/hayyabuild.bundle.js:16393
+#: admin/assets/js/hayyabuild.bundle.js:16842
+msgid "None"
+msgstr "لا شيء"
+
+#: admin/assets/js/hayyabuild.bundle.js:16397
+#, fuzzy
+#| msgid "Fade in"
+msgid "Fade"
+msgstr "ظهور"
+
+#: admin/assets/js/hayyabuild.bundle.js:16401
+#, fuzzy
+#| msgid "Slide up"
+msgid "Slide Up"
+msgstr "زحف للأعلى"
+
+#: admin/assets/js/hayyabuild.bundle.js:16405
+msgid "Swipe Up"
+msgstr "زحف للإعلى"
+
+#: admin/assets/js/hayyabuild.bundle.js:16409
+#, fuzzy
+#| msgid "Shadow Left"
+msgid "Swipe Left"
+msgstr "ظل في اليسار"
+
+#: admin/assets/js/hayyabuild.bundle.js:16526
+msgid "Tabs"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16527
+msgid ""
+"Tabs are components which separate content placed in the same wrapper but in "
+"the separate pane."
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16536
+#, fuzzy
+#| msgid "Insert Tab Title"
+msgid "Tab Title 1"
+msgstr "أضف العنوان"
+
+#: admin/assets/js/hayyabuild.bundle.js:16542
+#, fuzzy
+#| msgid "Insert Tab Title"
+msgid "Tab Title 2"
+msgstr "أضف العنوان"
+
+#: admin/assets/js/hayyabuild.bundle.js:16548
+#, fuzzy
+#| msgid "Insert Tab Title"
+msgid "Tab Title 3"
+msgstr "أضف العنوان"
+
+#: admin/assets/js/hayyabuild.bundle.js:16673
+msgid "Tab"
+msgstr ""
+
+#: admin/assets/js/hayyabuild.bundle.js:16837
+msgid "Testimonial Settings"
+msgstr "إعدادات الشهادة"
+
+#: admin/assets/js/hayyabuild.bundle.js:16839
+msgid "Testimonial Style"
+msgstr "التصميم"
+
+#: admin/assets/js/hayyabuild.bundle.js:16852
+msgid "Show Stars"
+msgstr "عرض النجوم"
+
+#: admin/assets/js/hayyabuild.bundle.js:16887
+msgid "Cite Color"
+msgstr "لون الأسم"
+
+#: admin/assets/js/hayyabuild.bundle.js:16900
+msgid "Add testimonial text"
+msgstr "إضافة نص شهادة"
+
+#: admin/assets/js/hayyabuild.bundle.js:16909
+msgid "Add cite text"
+msgstr "أسم الشاهد"
+
+#: admin/assets/js/hayyabuild.bundle.js:17003
+msgid "Testimonial"
+msgstr "شهادة"
+
+#: admin/assets/js/hayyabuild.bundle.js:17004
+#: admin/assets/js/hayyabuild.bundle.js:17014
+msgid ""
+"A testimonial is often used to let people know what other people think of you "
+"or your product."
+msgstr ""
+
+#~ msgid "Unlock All Features"
+#~ msgstr "تفعيل كل المميزات"
+
+#~ msgid "HayyaBuild PRO features list"
+#~ msgstr "قائمة مميزات هيَابيلد الإحترافية"
+
+#~ msgid "Extra Blocks"
+#~ msgstr "مُكوَنات إضافية"
+
+#~ msgid ""
+#~ "More than 30 built in blocks. this blocks comes with HayyaBuild Pro "
+#~ "without the needs for another WordPress plugins or WordPress themes."
+#~ msgstr ""
+#~ "أكثر من 30 مُكوَن مدمجة. هذه المُكوَنات تأتي مع هيَابيلد بدون الحاجة إلى إضافات "
+#~ "أو قوالب أخرى."
+
+#~ msgid "25 Pre-Made Templates"
+#~ msgstr "أكثر من 25 قالب جاهز"
+
+#~ msgid "Save your time by starting from more than 25 pre-made templates."
+#~ msgstr "أختصر الكثير من الوقت بإستخدام أكثر من 25 قالب جاهز."
+
+#~ msgid "Import HayyaBuild Content"
+#~ msgstr "إستراد محتوى هيَابيلد من موقع أخر"
+
+#~ msgid ""
+#~ "With this feature you can import HayyaBuild content from any wordpress. "
+#~ "Use this feature to transfer HayyaBuild content from one wordpress site to "
+#~ "the other."
+#~ msgstr ""
+#~ "بهذه الميزة يمكنك إستراد محتوى هيَابيلد من أي موقع ووردبريس يستخدم هيَابيلد. "
+#~ "بذلك لن تكون بحاجة لإعادة نفس الخطوات في كل مرة."
+
+#~ msgid "And More..."
+#~ msgstr "و أكثر من ذلك..."
+
+#~ msgid "what you get for <del>34$</del> 29$ ?"
+#~ msgstr "ماذا تحصل بمقابل <del>34$</del> 29$ ?"
+
+#~ msgid ""
+#~ "ALL HAYYABUILD FEATURES | UNLIMITED UPDATES | ONE TIME PURCHASE | 6 MONTHS "
+#~ "SUPPORT"
+#~ msgstr ""
+#~ "جميع ميزات HYYABUILD | تحديثات غير محدودة | شراء مرة واحدة | 6 أشهر الدعم"
+
+#~ msgid "This feature is available only in HayyaBuild Pro."
+#~ msgstr "هذه الميزة موجودة فقط في الإصدار الإحترافي."
+
+#~ msgid "You can support it by unlocking all features. to unlock all features."
+#~ msgstr "يمكنك دعمه عن طريق فتح جميع الميزات. لفتح جميع الميزات."
+
+#~ msgid "click here"
+#~ msgstr "أضغط هنا"
+
+#~ msgid "Click here to get more modules"
+#~ msgstr "أضغط هنا للحصول على المزيد من المكونات"
+
+#~ msgid "Use"
+#~ msgstr "أستخدم"
+
+#~ msgid "CodeCanyon."
+#~ msgstr "CodeCanyon."
+
+#~ msgid "Plugin Page"
+#~ msgstr "الصفحة الرئيسية"
+
+#~ msgid ""
+#~ "if you have any problem to setup your theme to work with HayyaBuild just "
+#~ "content us using this link"
+#~ msgstr ""
+#~ "إذا كنت ترغب بالمساعدة في تهيئة هيَابيلد على القالب الخاص بإمكانك الإتصال "
+#~ "بنا عن طريق الرابط التالي"
+
+#~ msgid "codecanyon.net"
+#~ msgstr "codecanyon.net"
+
+#~ msgid "Alert Box."
+#~ msgstr "صندوق التنبيه."
+
+#~ msgid "Button block."
+#~ msgstr "زر."
+
+#~ msgid "Font color"
+#~ msgstr "لون الخط"
+
+#~ msgid "Front page"
+#~ msgstr "الصفحة الرئيسية"
+
+#~ msgid "Posts index page"
+#~ msgstr "صفحة المقالات"
+
+#~ msgid "Single page"
+#~ msgstr "صفحة عرض المقال"
+
+#~ msgid "Author page"
+#~ msgstr "صفحة المحرر"
+
+#~ msgid "Video position"
+#~ msgstr "موضع الفيديو"
+
+#~ msgid "Scroll"
+#~ msgstr "منزلق"
+
+#~ msgid "Fixed"
+#~ msgstr "ثابت"
+
+#~ msgid "No"
+#~ msgstr "لا"
+
+#~ msgid "Yes"
+#~ msgstr "نعم"
